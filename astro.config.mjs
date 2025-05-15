@@ -6,6 +6,6 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   output: 'static',
   base: '/',
-  site: 'https://andrewcarvajal.dev/',
+  site: 'andrewcarvajal.dev',
   integrations: [react(), tailwind()],
 });

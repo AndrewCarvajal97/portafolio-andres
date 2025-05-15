@@ -1,0 +1,69 @@
+{
+  "images": [
+    {
+      "name": "profile.jpg",
+      "url": "https://via.placeholder.com/400x400/4C51BF/FFFFFF?text=Pablo+Andres",
+      "alt": "Pablo Andrés Carvajal Ramírez"
+    },
+    {
+      "name": "prestaya.jpg",
+      "url": "https://via.placeholder.com/600x400/2D3748/FFFFFF?text=Presta+Ya",
+      "alt": "Presta Ya - Sistema de gestión de préstamos"
+    },
+    {
+      "name": "fafivep.jpg",
+      "url": "https://via.placeholder.com/600x400/38B2AC/FFFFFF?text=FAFIVEP",
+      "alt": "FAFIVEP - Sistema de cooperativa de ahorro y crédito"
+    },
+    {
+      "name": "aia.jpg",
+      "url": "https://via.placeholder.com/600x400/ED8936/FFFFFF?text=AIA",
+      "alt": "AIA - El futuro de la administración de servicios"
+    },
+    {
+      "name": "mudi.jpg",
+      "url": "https://via.placeholder.com/600x400/9F7AEA/FFFFFF?text=Gestor+Mudi",
+      "alt": "Gestor de proyectos Mudi - Control de proyectos 3D"
+    },
+    {
+      "name": "voyagr.jpg",
+      "url": "https://via.placeholder.com/600x400/F56565/FFFFFF?text=Voyagr",
+      "alt": "Voyagr - Experiencia de viaje potenciada con IA"
+    },
+    {
+      "name": "factura-mensuly.jpg",
+      "url": "https://via.placeholder.com/600x400/48BB78/FFFFFF?text=Factura+Mensuly",
+      "alt": "Factura Mensuly - Sistema de facturación para Mensuly SAS"
+    },
+    {
+      "name": "mensuly.jpg",
+      "url": "https://via.placeholder.com/600x400/4299E1/FFFFFF?text=Mensuly+SAS",
+      "alt": "Página web Mensuly S.A.S."
+    },
+    {
+      "name": "pastor-julio.jpg",
+      "url": "https://via.placeholder.com/600x400/ECC94B/FFFFFF?text=Pastor+Julio",
+      "alt": "Página web Distribuidora Pastor Julio Delgado"
+    },
+    {
+      "name": "recursos-humanos.jpg",
+      "url": "https://via.placeholder.com/600x400/B794F4/FFFFFF?text=RRHH+App",
+      "alt": "Aplicativo web Recursos Humanos - Pastor Julio Delgado"
+    },
+    {
+      "name": "estudios.jpg",
+      "url": "https://via.placeholder.com/600x400/4C51BF/FFFFFF?text=Estudios",
+      "alt": "Estudios y formación académica"
+    },
+    {
+      "name": "cursos.jpg",
+      "url": "https://via.placeholder.com/600x400/38B2AC/FFFFFF?text=Cursos",
+      "alt": "Cursos y certificaciones"
+    },
+    {
+      "name": "complementarios.jpg",
+      "url": "https://via.placeholder.com/600x400/ED8936/FFFFFF?text=Complementarios",
+      "alt": "Formación complementaria"
+    }
+  ]
+}

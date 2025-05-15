@@ -1,0 +1,16 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Hero from '../components/Hero/Hero';
+import About from '../components/About/About';
+import Education from '../components/Education/Education';
+import Projects from '../components/Projects/Projects';
+import Contact from '../components/Contact/Contact';
+---
+
+<MainLayout title="Andrés Carvajal | Desarrollador Full Stack & Tech Leader">
+  <Hero client:load />
+  <Projects client:visible />
+  <About client:visible />
+  <Education client:visible />
+  <Contact client:visible />
+</MainLayout>

@@ -1,0 +1,31 @@
+name: 📦 Deploy Astro to GitHub Pages
+
+# Dispara al hacer push a main (cámbialo si usas otra rama)
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Obtener el código
+      - uses: actions/checkout@v3
+
+      # 2. Instalar Node.js
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # 3. Instalar dependencias y construir
+      - run: npm ci
+      - run: npm run build
+
+      # 4. Publicar en gh-pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages        # rama de destino
+          folder: dist            # carpeta que genera Astro
+          clean: true             # limpiar la rama antes de subir

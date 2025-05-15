@@ -19,7 +19,7 @@ export const proyectos = [
         id: 3,
         titulo: "AIA",
         imagen: "/images/projects/construccion.png",
-        descripcion: "Revolucionaria plataforma de administración de servicios centrada en la experiencia del cliente. AIA (Asistente Inteligente de Administración) integra tecnologías de IA para optimizar la interacción entre empresas y clientes. Desarrollé algoritmos de aprendizaje automático para análisis predictivo de necesidades, sistema de tickets con clasificación inteligente, y chatbots personalizados. La solución incluye paneles de analítica avanzada que permiten a las empresas identificar tendencias en la satisfacción del cliente y oportunidades de mejora, resultando en un incremento promedio del 25% en la retención de clientes.",
+        descripcion: "Formé parte del equipo de AIA, dirigiendo el desarrollo frontend y coordinando al equipo, implementando interfaces para análisis predictivo, gestión automática de tickets y chatbots, lo que contribuyó a un 25 % de retención adicional de clientes.",
         tecnologias: ["Node.js", "React", "MongoDB", "Express", "TensorFlow.js", "Socket.io", "Redis"],
         linkGIT: "https://github.com/andrewcarvajal97"
     },

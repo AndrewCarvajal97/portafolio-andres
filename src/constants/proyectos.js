@@ -27,7 +27,7 @@ export const proyectos = [
         id: 4,
         titulo: "Gestor de proyectos Mudi",
         imagen: "/images/projects/Proyectos-mudi.png",
-        descripcion: "Sistema avanzado de gestión de proyectos para la industria de diseño y modelado 3D. Implementé esta solución integral que permite a los clientes seguir el progreso de sus proyectos en tiempo real, aprobar o solicitar modificaciones en cada etapa, y administrar toda la documentación relacionada desde una interfaz unificada. El sistema incluye visualización 3D directamente en el navegador, comentarios contextuales sobre los modelos, y un sofisticado sistema de versionado. Los clientes reportaron una reducción del 60% en el tiempo de aprobación y una mejora significativa en la claridad de la comunicación durante el desarrollo de los proyectos.",
+        descripcion: "Formé parte del equipo de un sistema avanzado de gestión de proyectos 3D, liderando el desarrollo frontend y la coordinación del equipo para interfaces de seguimiento en tiempo real, visualización 3D en navegador y control de versiones, logrando una reducción del 60 % en tiempos de aprobación y una comunicación más clara.",
         tecnologias: ["PHP", "HTML5", "CSS3", "JavaScript", "MySQL", "Three.js", "WebGL", "Laravel"],
         linkGIT: "https://github.com/andrewcarvajal97"
     },

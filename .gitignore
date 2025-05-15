@@ -27,9 +27,6 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Lock files (opcional: si usas uno solo, ignora el otro)
-package-lock.json
-yarn.lock
 
 # Coverage
 coverage/

@@ -1,0 +1,19 @@
+# Habilitar reescritura de URL
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  
+  # Redirigir si un archivo o directorio no existe
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ / [L,QSA]
+  
+  # Permitir acceso a los archivos en _astro y _assets
+  <IfModule mod_rewrite.c>
+    RewriteRule ^_astro/(.*)$ _astro/$1 [L]
+    RewriteRule ^_assets/(.*)$ _assets/$1 [L]
+  </IfModule>
+</IfModule>
+
+# Desactivar el procesamiento Jekyll
+Options -Indexes

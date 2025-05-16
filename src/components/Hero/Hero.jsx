@@ -43,7 +43,7 @@ const Hero = () => {
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="w-64 h-64 md:w-80 md:h-80 relative rounded-full overflow-hidden border-4 border-accent">
               <img 
-                src="public/images/perfil.jpeg "
+                src={`${import.meta.env.BASE_URL}images/perfil.jpeg`}
                 alt={datosPerfil.nombre} 
                 className="absolute inset-0 w-full  object-cover"
                 onError={(e) => {

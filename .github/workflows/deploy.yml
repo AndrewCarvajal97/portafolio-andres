@@ -30,4 +30,9 @@ jobs:
           branch: gh-pages        # rama de destino
           folder: dist            # carpeta que genera Astro
           clean: true             # limpiar la rama antes de subir
+          single-commit: false
+          commiter-message: "Deploy GitHub Pages [skip ci]"
+          commit-message: "Deploy GitHub Pages [skip ci]"
+          git-config-name: "GitHub Actions"
+          git-config-email: "github-actions[bot]@users.noreply.github.com"
           nojekyll: true      # <-- evita que Jekyll ignore _astro

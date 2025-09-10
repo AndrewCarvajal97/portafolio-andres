@@ -9,7 +9,7 @@ export default defineConfig({
     assets: '_assets',
   },
   base: '/',
-  site: 'https://andrewcarvajal.dev',
+  site: 'https://pablocarvajal.dev',
   integrations: [react(), tailwind()],
   vite: {
     build: {

@@ -721,6 +721,9 @@ function renderAllHeadContent(result) {
 function renderHead() {
   return createRenderInstruction({ type: "head" });
 }
+function maybeRenderHead() {
+  return createRenderInstruction({ type: "maybe-head" });
+}
 
 const renderTemplateResultSym = Symbol.for("astro.renderTemplateResult");
 class RenderTemplateResult {
@@ -1524,4 +1527,4 @@ function normalizeProps(props) {
 "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_".split("").reduce((v, c) => (v[c.charCodeAt(0)] = c, v), []);
 "-0123456789_".split("").reduce((v, c) => (v[c.charCodeAt(0)] = c, v), []);
 
-export { NOOP_MIDDLEWARE_HEADER as N, createComponent as a, addAttribute as b, createAstro as c, renderComponent as d, renderSlot as e, renderTemplate as f, decodeKey as g, renderHead as r };
+export { NOOP_MIDDLEWARE_HEADER as N, renderTemplate as a, createAstro as b, createComponent as c, addAttribute as d, renderHead as e, renderSlot as f, decodeKey as g, maybeRenderHead as m, renderComponent as r };

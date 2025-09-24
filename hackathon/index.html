@@ -1,0 +1,350 @@
+<!DOCTYPE html><html lang="es" class="scroll-smooth"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Portafolio profesional de Andrés Carvajal - Desarrollador Full Stack y Tech Leader"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"><title>Hackathon ADSO 2024 - Vibecoding &amp; Frontend Development</title><link rel="stylesheet" href="/assets/hackathon.Ckb-8jke.css"></head> <body class="bg-dark text-white font-sans antialiased"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="Z8PbEY" prefix="r0" component-url="/js/Header.BAKzef67.js" component-export="default" renderer-url="/js/client.DrE9CFQR.js" props="{}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Header&quot;,&quot;value&quot;:true}" await-children=""><header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent"><div class="container mx-auto px-4 py-4 flex justify-between items-center"><div class="flex items-center"><a href="/" class="text-2xl font-bold text-white">Andrés<span class="text-accent">.</span></a></div><nav class="hidden md:flex space-x-8"><a href="#inicio" class="text-white hover:text-accent transition-colors">Inicio</a><a href="#sobre-mi" class="text-white hover:text-accent transition-colors">Sobre mí</a><a href="#educacion" class="text-white hover:text-accent transition-colors">Educación</a><a href="#proyectos" class="text-white hover:text-accent transition-colors">Proyectos</a><a href="/hackathon" class="text-white hover:text-accent transition-colors">Hackathon</a><a href="#contacto" class="text-white hover:text-accent transition-colors">Contacto</a></nav><button class="md:hidden text-white focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button></div></header><!--astro:end--></astro-island> <main>  <main class="font-sans antialiased"> <!-- Navigation --> <nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex justify-between items-center h-16"> <div class="flex items-center space-x-2"> <div class="w-8 h-8 bg-primary rounded-md flex items-center justify-center"> <span class="text-primary-foreground font-bold text-sm">H</span> </div> <span class="font-bold text-xl">Hackathon ADSO</span> </div> <div class="hidden md:flex items-center space-x-8"> <a href="#about" class="text-muted-foreground hover:text-foreground transition-colors">Acerca de</a> <a href="#details" class="text-muted-foreground hover:text-foreground transition-colors">Detalles</a> <a href="#register" class="text-muted-foreground hover:text-foreground transition-colors">Registro</a> <a href="/" class="text-muted-foreground hover:text-foreground transition-colors">Inicio</a> <button class="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors">
+Inscribirse
+</button> </div> </div> </div> </nav> <!-- Hero Section --> <section class="min-h-screen flex items-center justify-center relative overflow-hidden"> <!-- Background Image con overlay --> <div class="absolute inset-0 w-full h-full"> <img src="/images/67f3ec3085345dba2f7a2cf7_thumbnail-vibe-coding-1-1000x562.webp" alt="Vibecoding Background" class="w-full h-full object-cover object-center"> <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div> </div> <!-- Efectos visuales modernos --> <div class="absolute inset-0"> <!-- Gradiente dinámico --> <div class="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/20"></div> <!-- Grid pattern sutil --> <div class="absolute inset-0 opacity-10 grid-bg"></div> <!-- Elementos flotantes animados --> <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse"></div> <div class="absolute bottom-1/4 right-1/4 w-72 h-72 bg-accent/5 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div> </div> <!-- Contenido principal --> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-20"> <!-- Badge mejorado --> <div class="mb-8 animate-fade-in-up"> <span class="inline-flex items-center space-x-2 px-4 py-2 text-sm font-medium bg-white/10 backdrop-blur-md text-white rounded-full border border-white/20 shadow-lg"> <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span> <span>Vibecoding para Estudiantes ADSO</span> </span> </div> <!-- Título con efectos mejorados --> <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-8 text-balance animate-fade-in-up" style="animation-delay: 0.2s;"> <span class="block text-white drop-shadow-2xl">Hackathon Frontend</span> <span class="block bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient-x mt-2">
+React & TypeScript
+</span> </h1> <!-- Descripción mejorada --> <p class="text-xl md:text-2xl text-white/90 mb-10 max-w-4xl mx-auto text-pretty leading-relaxed drop-shadow-lg animate-fade-in-up" style="animation-delay: 0.4s;">
+Únete a la experiencia de desarrollo más innovadora. Crea aplicaciones increíbles con las tecnologías más demandadas del mercado usando <strong class="text-primary">Vibecoding</strong>.
+</p> <!-- Botones modernizados --> <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16 animate-fade-in-up" style="animation-delay: 0.6s;"> <a href="#register" class="group bg-gradient-to-r from-primary to-accent text-white px-10 py-5 rounded-2xl text-lg font-bold hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-primary/25 flex items-center space-x-2"> <span>🚀 Inscribir Equipo</span> <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path> </svg> </a> <button class="group flex items-center space-x-3 px-8 py-4 rounded-2xl text-lg font-semibold text-white border-2 border-white/30 hover:bg-white/10 backdrop-blur-md transition-all duration-300 hover:scale-105"> <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center"> <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20"> <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path> </svg> </div> <span>Ver Demo</span> </button> </div> <!-- Terminal command mejorado --> <div class="inline-flex items-center space-x-3 bg-black/30 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 animate-fade-in-up" style="animation-delay: 0.8s;"> <div class="flex items-center space-x-2"> <span class="w-3 h-3 bg-red-500 rounded-full"></span> <span class="w-3 h-3 bg-yellow-500 rounded-full"></span> <span class="w-3 h-3 bg-green-500 rounded-full"></span> </div> <div class="flex items-center space-x-2 text-white/90"> <span class="text-success">$</span> <code class="text-sm font-mono">npm create hackathon-project@latest</code> <span class="w-2 h-4 bg-white animate-pulse ml-1"></span> </div> </div> <!-- Scroll indicator --> <div class="absolute  left-1/2 transform -translate-x-1/2 bottom-[-100px] animate-bounce"> <div class="flex flex-col items-center  text-white/70"> <span class="text-sm font-medium">Descubre más</span> <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path> </svg> </div> </div> </div> </section> <!-- About Section --> <section id="about" class="py-24 bg-muted/30"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="text-center mb-16"> <h2 class="text-3xl md:text-5xl font-bold mb-6">
+¿Qué es <span class="text-primary">Vibecoding</span>?
+</h2> <p class="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
+Una metodología de desarrollo donde los desarrolladores interactúan principalmente con herramientas de IA para generar, refinar y depurar código usando prompts en lenguaje natural. Acuñado por Andrej Karpathy en 2025, se enfoca en dar direcciones de alto nivel a modelos de lenguaje para acelerar la creación de aplicaciones funcionales.
+</p> </div> <div class="grid md:grid-cols-2 gap-12 items-center"> <div class="space-y-6"> <div class="flex items-start space-x-4"> <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0"> <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path> </svg> </div> <div> <h3 class="text-xl font-semibold mb-2">Prompts de Alto Nivel</h3> <p class="text-muted-foreground">En lugar de código preciso, los desarrolladores dan "vibes" o intenciones generales a la IA para generar aplicaciones funcionales.</p> </div> </div> <div class="flex items-start space-x-4"> <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0"> <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path> </svg> </div> <div> <h3 class="text-xl font-semibold mb-2">Refinamiento Iterativo</h3> <p class="text-muted-foreground">Proceso de retroalimentación conversacional para guiar a la IA en refinar y depurar el código generado.</p> </div> </div> <div class="flex items-start space-x-4"> <div class="w-12 h-12 bg-success/10 rounded-lg flex items-center justify-center flex-shrink-0"> <svg class="w-6 h-6 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path> </svg> </div> <div> <h3 class="text-xl font-semibold mb-2">Prototipado Rápido</h3> <p class="text-muted-foreground">Aprovecha la capacidad de los LLM para producir código funcional y acelerar la creación de aplicaciones y nuevas características.</p> </div> </div> </div> <div class="bg-card rounded-xl p-6 border border-border"> <div class="code-highlight p-4 rounded-lg font-mono text-sm"> <div class="flex items-center space-x-2 mb-4"> <div class="w-3 h-3 bg-destructive rounded-full"></div> <div class="w-3 h-3 bg-warning rounded-full"></div> <div class="w-3 h-3 bg-success rounded-full"></div> <span class="text-muted-foreground ml-2">hackathon-project.tsx</span> </div> <div class="space-y-2"> <div><span class="text-accent">import</span> <span class="text-primary">React</span> <span class="text-accent">from</span> <span class="text-success">'react'</span></div> <div><span class="text-accent">import</span> <span class="text-primary">&#123; useEffect &#125;</span> <span class="text-accent">from</span> <span class="text-success">'react'</span></div> <div class="mt-4"> <span class="text-accent">function</span> <span class="text-primary">HackathonApp</span><span class="text-muted-foreground">() &#123;</span> </div> <div class="ml-4"> <span class="text-accent">const</span> <span class="text-primary">[idea, setIdea]</span> <span class="text-muted-foreground">= React.hook('')</span> </div> <div class="ml-4 mt-2"> <span class="text-accent">return</span> <span class="text-muted-foreground">(</span> </div> <div class="ml-8"> <span class="text-muted-foreground">&lt;</span><span class="text-primary">div</span><span class="text-muted-foreground">&gt;</span><span class="text-success">¡Tu idea aquí!</span><span class="text-muted-foreground">&lt;/</span><span class="text-primary">div</span><span class="text-muted-foreground">&gt;</span> </div> <div class="ml-4"> <span class="text-muted-foreground">)</span> </div> <div><span class="text-muted-foreground">&#125;</span></div> </div> </div> </div> </div> </div> </section> <!-- Details Section --> <section id="details" class="py-24"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="text-center mb-16"> <h2 class="text-3xl md:text-5xl font-bold mb-6">Detalles del Evento</h2> <p class="text-xl text-muted-foreground">Todo lo que necesitas saber sobre la hackathon</p> </div> <div class="grid md:grid-cols-3 gap-8"> <div class="bg-card rounded-xl p-8 border border-border text-center"> <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6"> <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path> </svg> </div> <h3 class="text-2xl font-bold mb-4">Horario</h3> <p class="text-muted-foreground mb-4">Jornada completa en modalidad presencial</p> <div class="text-sm text-muted-foreground space-y-2"> <p><strong>Primera sesión:</strong> <b>8:00 AM - 12:00 PM</b> — Conferencia Vibecoding en el Auditorio Enrique Low Multra (abierta a todos los estudiantes).</p> <p><strong>Almuerzo:</strong> <b>12:00 PM - 1:00 PM</b> — Incluido para todos los equipos participantes.</p> <p><strong>Segunda sesión:</strong> <b>1:00 PM - 5:00 PM</b> — Hackathon en ambiente especializado SENA (solo equipos inscritos).</p> <p><b>Fecha:</b> 30 de Octubre 2025</p> </div> </div> <div class="bg-card rounded-xl p-8 border border-border text-center"> <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6"> <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path> </svg> </div> <h3 class="text-2xl font-bold mb-4">Ubicación</h3> <p class="text-muted-foreground mb-4">Centro de Servicios Empresariales y Turísticos</p> <div class="text-sm text-muted-foreground space-y-2"> <p> <strong>Primera sesión:</strong> Abierta para todos los estudiantes, se realizará en el <b>Auditorio Enrique Low Multra</b>.
+</p> <p> <strong>Segunda sesión:</strong> Exclusiva para los equipos inscritos, se llevará a cabo en un ambiente especializado del SENA.
+</p> <p> <b>Importante:</b> Todos los miembros de los equipos deben estar presentes en ambas sesiones.
+</p> <p>Modalidad presencial</p> </div> </div> <div class="bg-card rounded-xl p-8 border border-border text-center"> <div class="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-6"> <svg class="w-8 h-8 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path> </svg> </div> <h3 class="text-2xl font-bold mb-4">Beneficios</h3> <p class="text-muted-foreground mb-4">Reconocimientos y experiencias increíbles</p> <div class="text-sm text-muted-foreground space-y-4"> <div class="flex items-center space-x-3"> <span class="text-2xl">💰</span> <span> <strong class="text-primary">Premio Principal:</strong> <span class="block text-muted-foreground">El equipo ganador recibirá un <b>premio en efectivo</b> y reconocimiento especial.</span> </span> </div> <div class="flex items-center space-x-3"> <span class="text-2xl">🎓</span> <span> <strong class="text-accent">Premios para Equipos Destacados:</strong> <span class="block text-muted-foreground">Los equipos con mejores ideas y desempeño obtendrán <b>cursos de programación y otros beneficios</b>.</span> </span> </div> <div class="flex items-center space-x-3"> <span class="text-2xl">🎉</span> <span> <strong class="text-success">Alimentacion para Todos:</strong> <span class="block text-muted-foreground">Todos los equipos participantes recibirán almuerzo incluido.</span> </span> </div> </div> </div> </div> <div class="mt-16 bg-muted/30 rounded-2xl p-2"> <h3 class="text-2xl font-bold mb-6 text-center">Herramientas de Vibecoding</h3> <!-- Lista actualizada de herramientas --> <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4"> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/claude-color.webp" alt="Claude AI" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">Claude AI</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/cursor.webp" alt="Cursor" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">Cursor</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/deepseek-color.webp" alt="DeepSeek" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">DeepSeek</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/github.webp" alt="GitHub" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">GitHub</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/githubcopilot.webp" alt="GitHub Copilot" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">GitHub Copilot</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/langchain-color.webp" alt="LangChain" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">LangChain</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/mcp.webp" alt="MCP Protocol" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">MCP Protocol</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/microsoft-color.webp" alt="Microsoft AI" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">Microsoft AI</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/ollama.webp" alt="Ollama" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">Ollama</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/openai.webp" alt="OpenAI" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">OpenAI</span> </div> <!-- Descripción adicional --> </div> <div class="mt-6 text-center"> <p class="text-muted-foreground text-sm pt-4">
+Ecosistema completo de herramientas de IA para desarrollo moderno y productivo
+</p> </div> </div> </div></section> <!-- Registration Form --> <section id="register" class=" bg-muted/30 relative overflow-hidden"> <!-- Background Animation --> <div class="absolute inset-0 opacity-10"> <div class="floating-shapes"> <div class="shape shape-1"></div> <div class="shape shape-2"></div> <div class="shape shape-3"></div> </div> </div> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10"> <div class="text-center mb-12"> <h2 class="text-3xl md:text-5xl font-bold mb-6 gradient-text">Inscribe tu Equipo</h2> <p class="text-xl text-muted-foreground">Completa todos los campos para inscribir tu equipo al hackathon</p> </div> <div class="grid lg:grid-cols-3 gap-8"> <!-- Formulario --> <div class="lg:col-span-2"> <div class="bg-card rounded-2xl p-8 border border-border glass-effect"> <form action="https://formspree.io/f/xanpylqy" method="POST" class="space-y-8" id="registrationForm"> <!-- Información del Equipo --> <div class="space-y-6"> <div class="border-b border-border pb-4"> <h3 class="text-2xl font-bold text-primary mb-2">📝 Información del Equipo</h3> <p class="text-muted-foreground">Datos básicos de tu equipo</p> </div> <div class="grid md:grid-cols-2 gap-6"> <div class="input-group"> <label for="team-name" class="block text-sm font-medium mb-2">Nombre del Equipo *</label> <input type="text" id="team-name" name="team-name" required class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Ej: CodeMasters2024"> </div> <div class="input-group"> <label for="team-description" class="block text-sm font-medium mb-2">Descripción del Equipo</label> <textarea id="team-description" name="team-description" rows="3" class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Cuéntanos brevemente sobre tu equipo..."></textarea> </div> </div> </div> <!-- Integrantes del Equipo --> <div class="space-y-6"> <div class="border-b border-border pb-4"> <h3 class="text-2xl font-bold text-primary mb-2">👥 Integrantes del Equipo</h3> <p class="text-muted-foreground">Agrega los datos de cada integrante (mínimo 1, máximo 7)</p> </div> <div class="members-container space-y-6"> <!-- Los miembros se generarán dinámicamente con JavaScript --> </div> <div class="flex justify-center items-center space-x-4"> <button type="button" id="addMemberBtn" class="btn-modern bg-primary/20 text-primary px-6 py-3 rounded-lg hover:bg-primary/30 transition-colors flex items-center space-x-2"> <span>➕</span> <span>Agregar Integrante</span> </button> <span class="text-muted-foreground text-sm" id="memberCount">1 / 7 integrantes</span> </div> </div> <!-- Información Adicional --> <div class="space-y-6"> <div class="border-b border-border pb-4"> <h3 class="text-2xl font-bold text-primary mb-2">📄 Información Adicional</h3> <p class="text-muted-foreground">Cuéntanos más sobre tu equipo</p> </div> <div class="input-group"> <label for="additional-info" class="block text-sm font-medium mb-2">Experiencia del Equipo</label> <textarea id="additional-info" name="message" rows="4" class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Cuéntanos sobre la experiencia de tu equipo, proyectos previos, tecnologías que dominan, o cualquier información relevante..."></textarea> </div> </div> <!-- Términos y Condiciones --> <div class="space-y-4"> <div class="flex items-start space-x-3"> <input type="checkbox" id="terms" name="terms" required class="mt-1 w-4 h-4 text-primary bg-input border-border rounded focus:ring-primary focus:ring-2"> <label for="terms" class="text-sm text-muted-foreground">
+Acepto los términos y condiciones del evento y autorizo el tratamiento de mis datos personales de acuerdo a la política de privacidad. Confirmo que la información proporcionada es verídica.
+</label> </div> <button type="submit" id="submitBtn" class="w-full btn-modern bg-success text-white px-8 py-4 rounded-lg font-medium hover:bg-success/90 transition-colors text-lg">
+🚀 Inscribir Equipo al Hackathon
+</button> </div> </form> </div> </div> <!-- Resumen en tiempo real --> <div class="lg:col-span-1"> <div class="sticky top-24"> <div class="bg-card rounded-2xl p-6 border border-border glass-effect"> <h4 class="text-xl font-bold text-primary mb-4">📋 Resumen de Inscripción</h4> <div id="summaryContent" class="space-y-3 text-sm"> <p class="text-muted-foreground">Completa el formulario para ver el resumen de tu inscripción...</p> </div> </div> </div> </div> </div> </div> </section> <!-- JavaScript --> <script>
+      // Variables globales
+      let memberCount = 1;
+      const maxMembers = 7;
+      const minMembers = 1;
+
+      // Función para generar el resumen en tiempo real
+      function generateSummary() {
+        const summaryContent = document.getElementById('summaryContent');
+        if (!summaryContent) return;
+
+        const teamNameEl = document.getElementById('team-name');
+        const teamDescriptionEl = document.getElementById('team-description');
+        const additionalInfoEl = document.getElementById('additional-info');
+        
+        const teamName = teamNameEl ? teamNameEl.value.trim() : '';
+        const teamDescription = teamDescriptionEl ? teamDescriptionEl.value.trim() : '';
+        const additionalInfo = additionalInfoEl ? additionalInfoEl.value.trim() : '';
+        
+        let membersHtml = '';
+        let foodPreferencesHtml = '';
+        let validMembers = 0;
+        
+        for (let i = 1; i <= memberCount; i++) {
+          const nameEl = document.getElementById('member' + i + '-name');
+          const roleEl = document.getElementById('member' + i + '-role');
+          const foodEl = document.getElementById('member' + i + '-food');
+          const foodCustomEl = document.getElementById('member' + i + '-food-custom');
+          
+          if (nameEl && nameEl.value.trim()) {
+            const name = nameEl.value.trim();
+            const roleValue = roleEl ? roleEl.value : '';
+            const roleText = roleEl && roleEl.selectedOptions && roleEl.selectedOptions[0] ? roleEl.selectedOptions[0].text : roleValue;
+            
+            validMembers++;
+            membersHtml += '<p class="flex items-center space-x-2"><span class="text-accent">•</span><span>' + name + (roleText ? ' - ' + roleText : '') + '</span></p>';
+            
+            if (foodEl && foodEl.value) {
+              let foodText = foodEl.selectedOptions && foodEl.selectedOptions[0] ? foodEl.selectedOptions[0].text : foodEl.value;
+              if (foodEl.value === 'otra' && foodCustomEl && foodCustomEl.value.trim()) {
+                foodText = foodCustomEl.value.trim();
+              }
+              foodPreferencesHtml += '<p class="flex items-center space-x-2"><span class="text-accent">•</span><span>' + name + ': ' + foodText + '</span></p>';
+            }
+          }
+        }
+
+        if (!teamName && validMembers === 0 && !additionalInfo) {
+          summaryContent.innerHTML = '<p class="text-muted-foreground">Completa el formulario para ver el resumen de tu inscripción...</p>';
+          return;
+        }
+
+        let summaryHtml = '<div class="space-y-4">';
+        
+        if (teamName) {
+          summaryHtml += '<div class="bg-primary/10 p-4 rounded-lg border border-primary/20">' +
+            '<h5 class="text-primary font-bold text-lg flex items-center space-x-2"><span>📋</span><span>' + teamName + '</span></h5>' +
+            (teamDescription ? '<p class="mt-2 text-sm text-muted-foreground">' + teamDescription + '</p>' : '') +
+            '</div>';
+        }
+        
+        if (validMembers > 0) {
+          summaryHtml += '<div class="border border-border rounded-lg p-4">' +
+            '<h6 class="text-primary font-semibold mb-2 flex items-center space-x-2"><span>👥</span><span>Integrantes (' + validMembers + '):</span></h6>' +
+            '<div class="space-y-1">' + membersHtml + '</div>' +
+            '</div>';
+        }
+        
+        if (foodPreferencesHtml) {
+          summaryHtml += '<div class="border border-border rounded-lg p-4">' +
+            '<h6 class="text-primary font-semibold mb-2 flex items-center space-x-2"><span>🍽️</span><span>Preferencias Alimenticias:</span></h6>' +
+            '<div class="space-y-1">' + foodPreferencesHtml + '</div>' +
+            '</div>';
+        }
+        
+        if (additionalInfo) {
+          summaryHtml += '<div class="border border-border rounded-lg p-4">' +
+            '<h6 class="text-primary font-semibold mb-2 flex items-center space-x-2"><span>📄</span><span>Información Adicional:</span></h6>' +
+            '<p class="text-sm text-muted-foreground">' + additionalInfo + '</p>' +
+            '</div>';
+        }
+        
+        summaryHtml += '</div>';
+        summaryContent.innerHTML = summaryHtml;
+      }
+
+      function createMemberCard(memberIndex) {
+        const roles = [
+          { value: 'frontend', label: 'Frontend Developer', icon: '💻' },
+          { value: 'backend', label: 'Backend Developer', icon: '⚙️' },
+          { value: 'fullstack', label: 'Fullstack Developer', icon: '🔄' },
+          { value: 'qa', label: 'QA Tester', icon: '🔍' },
+          { value: 'pm', label: 'Project Manager', icon: '📊' },
+          { value: 'designer', label: 'UI/UX Designer', icon: '🎨' },
+          { value: 'devops', label: 'DevOps Engineer', icon: '⚙️' }
+        ];
+
+        const foodPreferences = [
+          { value: 'normal', label: 'Normal' },
+          { value: 'vegetariana', label: 'Vegetariana' },
+          { value: 'vegana', label: 'Vegana' },
+          { value: 'otra', label: 'Otra (especificar)' }
+        ];
+
+        const memberCard = document.createElement('div');
+        memberCard.className = 'member-card';
+        memberCard.id = 'member-card-' + memberIndex;
+        
+        let roleOptions = '<option value="">Seleccionar rol</option>';
+        roles.forEach(function(role) {
+          roleOptions += '<option value="' + role.value + '">' + role.icon + ' ' + role.label + '</option>';
+        });
+
+        let foodOptions = '<option value="">Seleccionar preferencia</option>';
+        foodPreferences.forEach(function(pref) {
+          foodOptions += '<option value="' + pref.value + '">' + pref.label + '</option>';
+        });
+
+        memberCard.innerHTML = 
+          '<div class="flex justify-between items-center mb-4">' +
+            '<h4 class="font-medium text-primary flex items-center">' +
+              '<span class="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center mr-3 text-sm">' + memberIndex + '</span>' +
+              'Integrante ' + memberIndex + (memberIndex === 1 ? ' (Líder del equipo)' : '') +
+            '</h4>' +
+            (memberIndex > 1 ? 
+              '<button type="button" onclick="removeMember(' + memberIndex + ')" class="text-destructive hover:bg-destructive/10 p-2 rounded-lg transition-colors">' +
+                '🗑️ Eliminar' +
+              '</button>' : ''
+            ) +
+          '</div>' +
+          '<div class="grid md:grid-cols-2 gap-4">' +
+            '<div class="input-group">' +
+              '<label for="member' + memberIndex + '-name" class="block text-sm font-medium mb-2">Nombre completo *</label>' +
+              '<input type="text" id="member' + memberIndex + '-name" name="member' + memberIndex + '-name" required ' +
+              'class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" ' +
+              'placeholder="Juan Pérez" />' +
+            '</div>' +
+            '<div class="input-group">' +
+              '<label for="member' + memberIndex + '-email" class="block text-sm font-medium mb-2">Email *</label>' +
+              '<input type="email" id="member' + memberIndex + '-email" name="member' + memberIndex + '-email" required ' +
+              'class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" ' +
+              'placeholder="juan@ejemplo.com" />' +
+            '</div>' +
+          '</div>' +
+          '<div class="grid md:grid-cols-2 gap-4 mt-4">' +
+            '<div class="input-group">' +
+              '<label for="member' + memberIndex + '-role" class="block text-sm font-medium mb-2">Rol en el equipo *</label>' +
+              '<select id="member' + memberIndex + '-role" name="member' + memberIndex + '-role" required ' +
+              'class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent">' +
+              roleOptions +
+              '</select>' +
+            '</div>' +
+            '<div class="input-group">' +
+              '<label for="member' + memberIndex + '-food" class="block text-sm font-medium mb-2">Preferencia alimenticia *</label>' +
+              '<select id="member' + memberIndex + '-food" name="member' + memberIndex + '-food" required ' +
+              'class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" ' +
+              'onchange="handleFoodPreferenceChange(' + memberIndex + ')">' +
+              foodOptions +
+              '</select>' +
+              '<input type="text" id="member' + memberIndex + '-food-custom" name="member' + memberIndex + '-food-custom" ' +
+              'class="custom-food-input hidden w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" ' +
+              'placeholder="Especifica tu preferencia alimenticia..." />' +
+            '</div>' +
+          '</div>';
+        
+        return memberCard;
+      }
+
+      function addMember() {
+        if (memberCount >= maxMembers) return;
+        
+        memberCount++;
+        const container = document.querySelector('.members-container');
+        const newMember = createMemberCard(memberCount);
+        container.appendChild(newMember);
+        
+        updateMemberControls();
+        enhanceSelectVisibility();
+        generateSummary();
+      }
+
+      function removeMember(memberIndex) {
+        if (memberCount <= minMembers) return;
+        
+        const memberCard = document.getElementById('member-card-' + memberIndex);
+        if (memberCard) {
+          memberCard.remove();
+        }
+        
+        reorderMembers();
+        updateMemberControls();
+        generateSummary();
+      }
+
+      function reorderMembers() {
+        const container = document.querySelector('.members-container');
+        const cards = Array.from(container.children);
+        let newIndex = 1;
+        
+        cards.forEach(function(card) {
+          const header = card.querySelector('h4 span');
+          if (header) {
+            header.textContent = newIndex;
+          }
+          
+          const titleText = card.querySelector('h4');
+          if (titleText) {
+            titleText.innerHTML = titleText.innerHTML.replace(/Integrante \d+/, 'Integrante ' + newIndex);
+          }
+          
+          card.id = 'member-card-' + newIndex;
+          newIndex++;
+        });
+        
+        memberCount = cards.length;
+      }
+
+      function updateMemberControls() {
+        const addBtn = document.getElementById('addMemberBtn');
+        const memberCountSpan = document.getElementById('memberCount');
+        
+        if (addBtn) {
+          addBtn.disabled = memberCount >= maxMembers;
+          addBtn.style.opacity = memberCount >= maxMembers ? '0.5' : '1';
+        }
+        
+        if (memberCountSpan) {
+          memberCountSpan.textContent = memberCount + ' / ' + maxMembers + ' integrantes';
+        }
+      }
+
+      function handleFoodPreferenceChange(memberIndex) {
+        const selectEl = document.getElementById('member' + memberIndex + '-food');
+        const customInputEl = document.getElementById('member' + memberIndex + '-food-custom');
+        
+        if (selectEl && customInputEl) {
+          if (selectEl.value === 'otra') {
+            customInputEl.classList.remove('hidden');
+            customInputEl.required = true;
+            customInputEl.focus();
+          } else {
+            customInputEl.classList.add('hidden');
+            customInputEl.required = false;
+            customInputEl.value = '';
+          }
+        }
+        generateSummary();
+      }
+
+      function handleSubmit() {
+        const submitBtn = document.getElementById('submitBtn');
+        if (submitBtn) {
+          submitBtn.textContent = '📤 Enviando...';
+          submitBtn.style.pointerEvents = 'none';
+        }
+      }
+
+      function enhanceSelectVisibility() {
+        const selects = document.querySelectorAll('select');
+        selects.forEach(function(select) {
+          select.addEventListener('change', function() {
+            if (this.value === '') {
+              this.style.color = '#9CA3AF';
+            } else {
+              this.style.color = '#ffffff';
+            }
+            generateSummary();
+          });
+          
+          // Solo aplicar color gris si está vacío
+          if (select.value === '') {
+            select.style.color = '#9CA3AF';
+          } else {
+            select.style.color = '#ffffff';
+          }
+          
+          select.addEventListener('focus', function() {
+            this.style.borderColor = '#ED8936';
+            // Temporalmente cambiar a color oscuro mientras está abierto
+            this.style.color = '#1a1a1a';
+          });
+          
+          select.addEventListener('blur', function() {
+            this.style.borderColor = 'rgba(247, 250, 252, 0.1)';
+            // Restaurar color apropiado al cerrar
+            if (this.value === '') {
+              this.style.color = '#9CA3AF';
+            } else {
+              this.style.color = '#ffffff';
+            }
+          });
+        });
+      }
+
+      function initializeMemberForms() {
+        const container = document.querySelector('.members-container');
+        if (container && !container.children.length) {
+          const firstMember = createMemberCard(1);
+          container.appendChild(firstMember);
+          updateMemberControls();
+          enhanceSelectVisibility();
+        }
+      }
+
+      function initializeForm() {
+        const form = document.getElementById('registrationForm');
+        if (form) {
+          form.addEventListener('submit', handleSubmit);
+        }
+
+        const addBtn = document.getElementById('addMemberBtn');
+        if (addBtn) {
+          addBtn.addEventListener('click', addMember);
+        }
+
+        document.addEventListener('input', generateSummary);
+        document.addEventListener('change', generateSummary);
+      }
+
+      // Hacer funciones globales
+      window.removeMember = removeMember;
+      window.handleFoodPreferenceChange = handleFoodPreferenceChange;
+
+      // Inicialización
+      document.addEventListener('DOMContentLoaded', function() {
+        initializeForm();
+        initializeMemberForms();
+        enhanceSelectVisibility();
+        generateSummary();
+      });
+    </script> </main>  </main> <footer class="bg-dark py-8"><div class="container mx-auto px-4"><div class="flex flex-col md:flex-row justify-between items-center"><div class="mb-4 md:mb-0"><a href="/" class="text-2xl font-bold text-white">Andrés<span class="text-accent">.</span></a><p class="text-gray-400 mt-2">Desarrollador Full Stack | Tech Leader</p></div><div class="flex space-x-4"><a href="https://github.com/AndrewCarvajal97" target="_blank" rel="noopener noreferrer" class="bg-light bg-opacity-10 p-3 rounded-full text-white hover:bg-accent hover:text-white transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg></a><a href="https://www.linkedin.com/in/pablo-andres-carvajal-ramirez-8114162aa/" target="_blank" rel="noopener noreferrer" class="bg-light bg-opacity-10 p-3 rounded-full text-white hover:bg-accent hover:text-white transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"></path></svg></a><a href="https://wa.me/573025288271" target="_blank" rel="noopener noreferrer" class="bg-light bg-opacity-10 p-3 rounded-full text-white hover:bg-accent hover:text-white transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path></svg></a><a href="mailto:andrewcarvajal97@gmail.com" class="bg-light bg-opacity-10 p-3 rounded-full text-white hover:bg-accent hover:text-white transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg></a></div></div><div class="border-t border-gray-800 mt-8 pt-8 text-center"><p class="text-gray-400">© <!-- -->2025<!-- --> <!-- -->Pablo Andrés Carvajal Ramírez<!-- -->. Todos los derechos reservados.</p></div></div></footer> </body></html>

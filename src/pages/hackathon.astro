@@ -469,7 +469,7 @@ import MainLayout from '../layouts/MainLayout.astro';
                 <div class="space-y-6">
                   <div class="border-b border-border pb-4">
                     <h3 class="text-2xl font-bold text-primary mb-2">👥 Integrantes del Equipo</h3>
-                    <p class="text-muted-foreground">Agrega los datos de cada integrante (mínimo 1, máximo 7)</p>
+                    <p class="text-muted-foreground">Agrega los datos de cada integrante (mínimo 3, máximo 7)</p>
                   </div>
                   
                   <div class="members-container space-y-6">
@@ -481,7 +481,7 @@ import MainLayout from '../layouts/MainLayout.astro';
                       <span>➕</span>
                       <span>Agregar Integrante</span>
                     </button>
-                    <span class="text-muted-foreground text-sm" id="memberCount">1 / 7 integrantes</span>
+                    <span class="text-muted-foreground text-sm" id="memberCount">3 / 7 integrantes</span>
                   </div>
                 </div>
 
@@ -549,9 +549,9 @@ import MainLayout from '../layouts/MainLayout.astro';
     <!-- JavaScript -->
     <script is:inline>
       // Variables globales
-      let memberCount = 1;
+      let memberCount = 3;
       const maxMembers = 7;
-      const minMembers = 1;
+      const minMembers = 3;
 
       // Función para generar el resumen en tiempo real
       function generateSummary() {
@@ -671,7 +671,7 @@ import MainLayout from '../layouts/MainLayout.astro';
               '<span class="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center mr-3 text-sm">' + memberIndex + '</span>' +
               'Integrante ' + memberIndex + (memberIndex === 1 ? ' (Líder del equipo)' : '') +
             '</h4>' +
-            (memberIndex > 1 ? 
+            (memberIndex > minMembers ? 
               '<button type="button" onclick="removeMember(' + memberIndex + ')" class="text-destructive hover:bg-destructive/10 p-2 rounded-lg transition-colors">' +
                 '🗑️ Eliminar' +
               '</button>' : ''
@@ -844,8 +844,11 @@ import MainLayout from '../layouts/MainLayout.astro';
       function initializeMemberForms() {
         const container = document.querySelector('.members-container');
         if (container && !container.children.length) {
-          const firstMember = createMemberCard(1);
-          container.appendChild(firstMember);
+          // Crear 3 miembros iniciales (mínimo requerido)
+          for (let i = 1; i <= 3; i++) {
+            const member = createMemberCard(i);
+            container.appendChild(member);
+          }
           updateMemberControls();
           enhanceSelectVisibility();
         }

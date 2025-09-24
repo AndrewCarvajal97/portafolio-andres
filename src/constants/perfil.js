@@ -25,7 +25,7 @@ export const datosPerfil = {
         github: "https://github.com/AndrewCarvajal97",
         email: "andrewcarvajal97@gmail.com",
         whatsapp: "+573025288271",
-        linkedin: "https://linkedin.com/in/andres-carvajal"
+        linkedin: "https://www.linkedin.com/in/pablo-andres-carvajal-ramirez-8114162aa/"
     },
     resumen: "Desarrollador full stack con más de tres años de experiencia en arquitecturas modernas y desarrollo de APIs. Como Tech Leader en Voyagr, he liderado la integración de IA en aplicaciones web y la puesta en marcha de servidores MCP, combinando excelencia técnica y visión estratégica para entregar soluciones escalables y de alta calidad. Continuamente me actualizo en tendencias de inteligencia artificial, optimización de servidores y desarrollo de sistemas robustos."
 };

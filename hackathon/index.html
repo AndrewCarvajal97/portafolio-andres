@@ -1,23 +1,30 @@
-<!DOCTYPE html><html lang="es" class="scroll-smooth"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Portafolio profesional de Andrés Carvajal - Desarrollador Full Stack y Tech Leader"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"><title>Hackathon ADSO 2024 - Vibecoding &amp; Frontend Development</title><link rel="stylesheet" href="/assets/hackathon.Ckb-8jke.css"></head> <body class="bg-dark text-white font-sans antialiased"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="Z8PbEY" prefix="r0" component-url="/js/Header.BAKzef67.js" component-export="default" renderer-url="/js/client.DrE9CFQR.js" props="{}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Header&quot;,&quot;value&quot;:true}" await-children=""><header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent"><div class="container mx-auto px-4 py-4 flex justify-between items-center"><div class="flex items-center"><a href="/" class="text-2xl font-bold text-white">Andrés<span class="text-accent">.</span></a></div><nav class="hidden md:flex space-x-8"><a href="#inicio" class="text-white hover:text-accent transition-colors">Inicio</a><a href="#sobre-mi" class="text-white hover:text-accent transition-colors">Sobre mí</a><a href="#educacion" class="text-white hover:text-accent transition-colors">Educación</a><a href="#proyectos" class="text-white hover:text-accent transition-colors">Proyectos</a><a href="/hackathon" class="text-white hover:text-accent transition-colors">Hackathon</a><a href="#contacto" class="text-white hover:text-accent transition-colors">Contacto</a></nav><button class="md:hidden text-white focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button></div></header><!--astro:end--></astro-island> <main>  <main class="font-sans antialiased"> <!-- Navigation --> <nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex justify-between items-center h-16"> <div class="flex items-center space-x-2"> <div class="w-8 h-8 bg-primary rounded-md flex items-center justify-center"> <span class="text-primary-foreground font-bold text-sm">H</span> </div> <span class="font-bold text-xl">Hackathon ADSO</span> </div> <div class="hidden md:flex items-center space-x-8"> <a href="#about" class="text-muted-foreground hover:text-foreground transition-colors">Acerca de</a> <a href="#details" class="text-muted-foreground hover:text-foreground transition-colors">Detalles</a> <a href="#register" class="text-muted-foreground hover:text-foreground transition-colors">Registro</a> <a href="/" class="text-muted-foreground hover:text-foreground transition-colors">Inicio</a> <button class="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors">
+<!DOCTYPE html><html lang="es" class="scroll-smooth"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Portafolio profesional de Andrés Carvajal - Desarrollador Full Stack y Tech Leader"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"><title>Hackathon ADSO 2025 - Vibecoding &amp; Frontend Development</title><link rel="stylesheet" href="/assets/hackathon.BHp8Yd9o.css">
+<link rel="stylesheet" href="/assets/hackathon.CV6sFFP8.css"></head> <body class="bg-dark text-white font-sans antialiased"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="Z8PbEY" prefix="r0" component-url="/js/Header.BAKzef67.js" component-export="default" renderer-url="/js/client.DrE9CFQR.js" props="{}" ssr="" client="load" opts="{&quot;name&quot;:&quot;Header&quot;,&quot;value&quot;:true}" await-children=""><header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent"><div class="container mx-auto px-4 py-4 flex justify-between items-center"><div class="flex items-center"><a href="/" class="text-2xl font-bold text-white">Andrés<span class="text-accent">.</span></a></div><nav class="hidden md:flex space-x-8"><a href="#inicio" class="text-white hover:text-accent transition-colors">Inicio</a><a href="#sobre-mi" class="text-white hover:text-accent transition-colors">Sobre mí</a><a href="#educacion" class="text-white hover:text-accent transition-colors">Educación</a><a href="#proyectos" class="text-white hover:text-accent transition-colors">Proyectos</a><a href="/hackathon" class="text-white hover:text-accent transition-colors">Hackathon</a><a href="#contacto" class="text-white hover:text-accent transition-colors">Contacto</a></nav><button class="md:hidden text-white focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button></div></header><!--astro:end--></astro-island> <main>  <main class="font-sans antialiased" data-astro-cid-lbq62zz6> <!-- Navigation --> <nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border" data-astro-cid-lbq62zz6> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-astro-cid-lbq62zz6> <div class="flex justify-between items-center h-16" data-astro-cid-lbq62zz6> <div class="flex items-center space-x-2" data-astro-cid-lbq62zz6> <div class="w-8 h-8 bg-primary rounded-md flex items-center justify-center" data-astro-cid-lbq62zz6> <span class="text-primary-foreground font-bold text-sm" data-astro-cid-lbq62zz6>H</span> </div> <span class="font-bold text-xl" data-astro-cid-lbq62zz6>Hackathon ADSO</span> </div> <div class="hidden md:flex items-center space-x-8" data-astro-cid-lbq62zz6> <a href="#about" class="text-muted-foreground hover:text-foreground transition-colors" data-astro-cid-lbq62zz6>Acerca de</a> <a href="#details" class="text-muted-foreground hover:text-foreground transition-colors" data-astro-cid-lbq62zz6>Detalles</a> <a href="#register" class="text-muted-foreground hover:text-foreground transition-colors" data-astro-cid-lbq62zz6>Registro</a> <a href="/terminos-condiciones" class="text-muted-foreground hover:text-foreground transition-colors text-sm" data-astro-cid-lbq62zz6>Términos</a> <a href="/" class="text-muted-foreground hover:text-foreground transition-colors" data-astro-cid-lbq62zz6>Inicio</a> <button class="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors" data-astro-cid-lbq62zz6>
 Inscribirse
-</button> </div> </div> </div> </nav> <!-- Hero Section --> <section class="min-h-screen flex items-center justify-center relative overflow-hidden"> <!-- Background Image con overlay --> <div class="absolute inset-0 w-full h-full"> <img src="/images/67f3ec3085345dba2f7a2cf7_thumbnail-vibe-coding-1-1000x562.webp" alt="Vibecoding Background" class="w-full h-full object-cover object-center"> <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div> </div> <!-- Efectos visuales modernos --> <div class="absolute inset-0"> <!-- Gradiente dinámico --> <div class="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/20"></div> <!-- Grid pattern sutil --> <div class="absolute inset-0 opacity-10 grid-bg"></div> <!-- Elementos flotantes animados --> <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse"></div> <div class="absolute bottom-1/4 right-1/4 w-72 h-72 bg-accent/5 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div> </div> <!-- Contenido principal --> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-20"> <!-- Badge mejorado --> <div class="mb-8 animate-fade-in-up"> <span class="inline-flex items-center space-x-2 px-4 py-2 text-sm font-medium bg-white/10 backdrop-blur-md text-white rounded-full border border-white/20 shadow-lg"> <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span> <span>Vibecoding para Estudiantes ADSO</span> </span> </div> <!-- Título con efectos mejorados --> <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-8 text-balance animate-fade-in-up" style="animation-delay: 0.2s;"> <span class="block text-white drop-shadow-2xl">Hackathon Frontend</span> <span class="block bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient-x mt-2">
+</button> </div> </div> </div> </nav> <!-- Hero Section --> <section class="min-h-screen flex items-center justify-center relative overflow-hidden" data-astro-cid-lbq62zz6> <!-- Background Image con overlay --> <div class="absolute inset-0 w-full h-full" data-astro-cid-lbq62zz6> <img src="/images/67f3ec3085345dba2f7a2cf7_thumbnail-vibe-coding-1-1000x562.webp" alt="Vibecoding Background" class="w-full h-full object-cover object-center" data-astro-cid-lbq62zz6> <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" data-astro-cid-lbq62zz6></div> </div> <!-- Efectos visuales modernos --> <div class="absolute inset-0" data-astro-cid-lbq62zz6> <!-- Gradiente dinámico --> <div class="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/20" data-astro-cid-lbq62zz6></div> <!-- Grid pattern sutil --> <div class="absolute inset-0 opacity-10 grid-bg" data-astro-cid-lbq62zz6></div> <!-- Elementos flotantes animados --> <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse" data-astro-cid-lbq62zz6></div> <div class="absolute bottom-1/4 right-1/4 w-72 h-72 bg-accent/5 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;" data-astro-cid-lbq62zz6></div> </div> <!-- Contenido principal --> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-20" data-astro-cid-lbq62zz6> <!-- Badge mejorado --> <div class="mb-8 animate-fade-in-up" data-astro-cid-lbq62zz6> <span class="inline-flex items-center space-x-2 px-4 py-2 text-sm font-medium bg-white/10 backdrop-blur-md text-white rounded-full border border-white/20 shadow-lg" data-astro-cid-lbq62zz6> <span class="w-2 h-2 bg-primary rounded-full animate-pulse" data-astro-cid-lbq62zz6></span> <span data-astro-cid-lbq62zz6>Vibecoding para Estudiantes ADSO</span> </span> </div> <!-- Título con efectos mejorados --> <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-8 text-balance animate-fade-in-up" style="animation-delay: 0.2s;" data-astro-cid-lbq62zz6> <span class="block text-white drop-shadow-2xl" data-astro-cid-lbq62zz6>Hackathon Frontend</span> <span class="block bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient-x mt-2" data-astro-cid-lbq62zz6>
 React & TypeScript
-</span> </h1> <!-- Descripción mejorada --> <p class="text-xl md:text-2xl text-white/90 mb-10 max-w-4xl mx-auto text-pretty leading-relaxed drop-shadow-lg animate-fade-in-up" style="animation-delay: 0.4s;">
-Únete a la experiencia de desarrollo más innovadora. Crea aplicaciones increíbles con las tecnologías más demandadas del mercado usando <strong class="text-primary">Vibecoding</strong>.
-</p> <!-- Botones modernizados --> <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16 animate-fade-in-up" style="animation-delay: 0.6s;"> <a href="#register" class="group bg-gradient-to-r from-primary to-accent text-white px-10 py-5 rounded-2xl text-lg font-bold hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-primary/25 flex items-center space-x-2"> <span>🚀 Inscribir Equipo</span> <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path> </svg> </a> <button class="group flex items-center space-x-3 px-8 py-4 rounded-2xl text-lg font-semibold text-white border-2 border-white/30 hover:bg-white/10 backdrop-blur-md transition-all duration-300 hover:scale-105"> <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center"> <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20"> <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path> </svg> </div> <span>Ver Demo</span> </button> </div> <!-- Terminal command mejorado --> <div class="inline-flex items-center space-x-3 bg-black/30 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 animate-fade-in-up" style="animation-delay: 0.8s;"> <div class="flex items-center space-x-2"> <span class="w-3 h-3 bg-red-500 rounded-full"></span> <span class="w-3 h-3 bg-yellow-500 rounded-full"></span> <span class="w-3 h-3 bg-green-500 rounded-full"></span> </div> <div class="flex items-center space-x-2 text-white/90"> <span class="text-success">$</span> <code class="text-sm font-mono">npm create hackathon-project@latest</code> <span class="w-2 h-4 bg-white animate-pulse ml-1"></span> </div> </div> <!-- Scroll indicator --> <div class="absolute  left-1/2 transform -translate-x-1/2 bottom-[-100px] animate-bounce"> <div class="flex flex-col items-center  text-white/70"> <span class="text-sm font-medium">Descubre más</span> <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path> </svg> </div> </div> </div> </section> <!-- About Section --> <section id="about" class="py-24 bg-muted/30"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="text-center mb-16"> <h2 class="text-3xl md:text-5xl font-bold mb-6">
-¿Qué es <span class="text-primary">Vibecoding</span>?
-</h2> <p class="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
+</span> </h1> <!-- Descripción mejorada --> <p class="text-xl md:text-2xl text-white/90 mb-10 max-w-4xl mx-auto text-pretty leading-relaxed drop-shadow-lg animate-fade-in-up" style="animation-delay: 0.4s;" data-astro-cid-lbq62zz6>
+Únete a la experiencia de desarrollo más innovadora. Crea aplicaciones increíbles con las tecnologías más demandadas del mercado usando <strong class="text-primary" data-astro-cid-lbq62zz6>Vibecoding</strong>.
+</p> <!-- Botones modernizados --> <div class="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16 animate-fade-in-up" style="animation-delay: 0.6s;" data-astro-cid-lbq62zz6> <a href="#register" class="group bg-gradient-to-r from-primary to-accent text-white px-10 py-5 rounded-2xl text-lg font-bold hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-primary/25 flex items-center space-x-2" data-astro-cid-lbq62zz6> <span data-astro-cid-lbq62zz6>🚀 Inscribir Equipo</span> <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" data-astro-cid-lbq62zz6></path> </svg> </a> <button class="group flex items-center space-x-3 px-8 py-4 rounded-2xl text-lg font-semibold text-white border-2 border-white/30 hover:bg-white/10 backdrop-blur-md transition-all duration-300 hover:scale-105" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center" data-astro-cid-lbq62zz6> <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20" data-astro-cid-lbq62zz6> <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" data-astro-cid-lbq62zz6></path> </svg> </div> <span data-astro-cid-lbq62zz6>Ver Demo</span> </button> </div> <!-- Terminal command mejorado --> <div class="inline-flex items-center space-x-3 bg-black/30 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 animate-fade-in-up" style="animation-delay: 0.8s;" data-astro-cid-lbq62zz6> <div class="flex items-center space-x-2" data-astro-cid-lbq62zz6> <span class="w-3 h-3 bg-red-500 rounded-full" data-astro-cid-lbq62zz6></span> <span class="w-3 h-3 bg-yellow-500 rounded-full" data-astro-cid-lbq62zz6></span> <span class="w-3 h-3 bg-green-500 rounded-full" data-astro-cid-lbq62zz6></span> </div> <div class="flex items-center space-x-2 text-white/90" data-astro-cid-lbq62zz6> <span class="text-success" data-astro-cid-lbq62zz6>$</span> <code class="text-sm font-mono" data-astro-cid-lbq62zz6>npm create hackathon-project@latest</code> <span class="w-2 h-4 bg-white animate-pulse ml-1" data-astro-cid-lbq62zz6></span> </div> </div> <!-- Scroll indicator --> <div class="absolute  left-1/2 transform -translate-x-1/2 bottom-[-100px] animate-bounce" data-astro-cid-lbq62zz6> <div class="flex flex-col items-center  text-white/70" data-astro-cid-lbq62zz6> <span class="text-sm font-medium" data-astro-cid-lbq62zz6>Descubre más</span> <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" data-astro-cid-lbq62zz6></path> </svg> </div> </div> </div> </section> <!-- About Section --> <section id="about" class="py-24 bg-muted/30" data-astro-cid-lbq62zz6> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-astro-cid-lbq62zz6> <div class="text-center mb-16" data-astro-cid-lbq62zz6> <h2 class="text-3xl md:text-5xl font-bold mb-6" data-astro-cid-lbq62zz6>
+¿Qué es <span class="text-primary" data-astro-cid-lbq62zz6>Vibecoding</span>?
+</h2> <p class="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty" data-astro-cid-lbq62zz6>
 Una metodología de desarrollo donde los desarrolladores interactúan principalmente con herramientas de IA para generar, refinar y depurar código usando prompts en lenguaje natural. Acuñado por Andrej Karpathy en 2025, se enfoca en dar direcciones de alto nivel a modelos de lenguaje para acelerar la creación de aplicaciones funcionales.
-</p> </div> <div class="grid md:grid-cols-2 gap-12 items-center"> <div class="space-y-6"> <div class="flex items-start space-x-4"> <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0"> <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path> </svg> </div> <div> <h3 class="text-xl font-semibold mb-2">Prompts de Alto Nivel</h3> <p class="text-muted-foreground">En lugar de código preciso, los desarrolladores dan "vibes" o intenciones generales a la IA para generar aplicaciones funcionales.</p> </div> </div> <div class="flex items-start space-x-4"> <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0"> <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path> </svg> </div> <div> <h3 class="text-xl font-semibold mb-2">Refinamiento Iterativo</h3> <p class="text-muted-foreground">Proceso de retroalimentación conversacional para guiar a la IA en refinar y depurar el código generado.</p> </div> </div> <div class="flex items-start space-x-4"> <div class="w-12 h-12 bg-success/10 rounded-lg flex items-center justify-center flex-shrink-0"> <svg class="w-6 h-6 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path> </svg> </div> <div> <h3 class="text-xl font-semibold mb-2">Prototipado Rápido</h3> <p class="text-muted-foreground">Aprovecha la capacidad de los LLM para producir código funcional y acelerar la creación de aplicaciones y nuevas características.</p> </div> </div> </div> <div class="bg-card rounded-xl p-6 border border-border"> <div class="code-highlight p-4 rounded-lg font-mono text-sm"> <div class="flex items-center space-x-2 mb-4"> <div class="w-3 h-3 bg-destructive rounded-full"></div> <div class="w-3 h-3 bg-warning rounded-full"></div> <div class="w-3 h-3 bg-success rounded-full"></div> <span class="text-muted-foreground ml-2">hackathon-project.tsx</span> </div> <div class="space-y-2"> <div><span class="text-accent">import</span> <span class="text-primary">React</span> <span class="text-accent">from</span> <span class="text-success">'react'</span></div> <div><span class="text-accent">import</span> <span class="text-primary">&#123; useEffect &#125;</span> <span class="text-accent">from</span> <span class="text-success">'react'</span></div> <div class="mt-4"> <span class="text-accent">function</span> <span class="text-primary">HackathonApp</span><span class="text-muted-foreground">() &#123;</span> </div> <div class="ml-4"> <span class="text-accent">const</span> <span class="text-primary">[idea, setIdea]</span> <span class="text-muted-foreground">= React.hook('')</span> </div> <div class="ml-4 mt-2"> <span class="text-accent">return</span> <span class="text-muted-foreground">(</span> </div> <div class="ml-8"> <span class="text-muted-foreground">&lt;</span><span class="text-primary">div</span><span class="text-muted-foreground">&gt;</span><span class="text-success">¡Tu idea aquí!</span><span class="text-muted-foreground">&lt;/</span><span class="text-primary">div</span><span class="text-muted-foreground">&gt;</span> </div> <div class="ml-4"> <span class="text-muted-foreground">)</span> </div> <div><span class="text-muted-foreground">&#125;</span></div> </div> </div> </div> </div> </div> </section> <!-- Details Section --> <section id="details" class="py-24"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="text-center mb-16"> <h2 class="text-3xl md:text-5xl font-bold mb-6">Detalles del Evento</h2> <p class="text-xl text-muted-foreground">Todo lo que necesitas saber sobre la hackathon</p> </div> <div class="grid md:grid-cols-3 gap-8"> <div class="bg-card rounded-xl p-8 border border-border text-center"> <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6"> <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path> </svg> </div> <h3 class="text-2xl font-bold mb-4">Horario</h3> <p class="text-muted-foreground mb-4">Jornada completa en modalidad presencial</p> <div class="text-sm text-muted-foreground space-y-2"> <p><strong>Primera sesión:</strong> <b>8:00 AM - 12:00 PM</b> — Conferencia Vibecoding en el Auditorio Enrique Low Multra (abierta a todos los estudiantes).</p> <p><strong>Almuerzo:</strong> <b>12:00 PM - 1:00 PM</b> — Incluido para todos los equipos participantes.</p> <p><strong>Segunda sesión:</strong> <b>1:00 PM - 5:00 PM</b> — Hackathon en ambiente especializado SENA (solo equipos inscritos).</p> <p><b>Fecha:</b> 30 de Octubre 2025</p> </div> </div> <div class="bg-card rounded-xl p-8 border border-border text-center"> <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6"> <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path> </svg> </div> <h3 class="text-2xl font-bold mb-4">Ubicación</h3> <p class="text-muted-foreground mb-4">Centro de Servicios Empresariales y Turísticos</p> <div class="text-sm text-muted-foreground space-y-2"> <p> <strong>Primera sesión:</strong> Abierta para todos los estudiantes, se realizará en el <b>Auditorio Enrique Low Multra</b>.
-</p> <p> <strong>Segunda sesión:</strong> Exclusiva para los equipos inscritos, se llevará a cabo en un ambiente especializado del SENA.
-</p> <p> <b>Importante:</b> Todos los miembros de los equipos deben estar presentes en ambas sesiones.
-</p> <p>Modalidad presencial</p> </div> </div> <div class="bg-card rounded-xl p-8 border border-border text-center"> <div class="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-6"> <svg class="w-8 h-8 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path> </svg> </div> <h3 class="text-2xl font-bold mb-4">Beneficios</h3> <p class="text-muted-foreground mb-4">Reconocimientos y experiencias increíbles</p> <div class="text-sm text-muted-foreground space-y-4"> <div class="flex items-center space-x-3"> <span class="text-2xl">💰</span> <span> <strong class="text-primary">Premio Principal:</strong> <span class="block text-muted-foreground">El equipo ganador recibirá un <b>premio en efectivo</b> y reconocimiento especial.</span> </span> </div> <div class="flex items-center space-x-3"> <span class="text-2xl">🎓</span> <span> <strong class="text-accent">Premios para Equipos Destacados:</strong> <span class="block text-muted-foreground">Los equipos con mejores ideas y desempeño obtendrán <b>cursos de programación y otros beneficios</b>.</span> </span> </div> <div class="flex items-center space-x-3"> <span class="text-2xl">🎉</span> <span> <strong class="text-success">Alimentacion para Todos:</strong> <span class="block text-muted-foreground">Todos los equipos participantes recibirán almuerzo incluido.</span> </span> </div> </div> </div> </div> <div class="mt-16 bg-muted/30 rounded-2xl p-2"> <h3 class="text-2xl font-bold mb-6 text-center">Herramientas de Vibecoding</h3> <!-- Lista actualizada de herramientas --> <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4"> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/claude-color.webp" alt="Claude AI" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">Claude AI</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/cursor.webp" alt="Cursor" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">Cursor</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/deepseek-color.webp" alt="DeepSeek" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">DeepSeek</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/github.webp" alt="GitHub" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">GitHub</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/githubcopilot.webp" alt="GitHub Copilot" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">GitHub Copilot</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/langchain-color.webp" alt="LangChain" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">LangChain</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/mcp.webp" alt="MCP Protocol" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">MCP Protocol</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/microsoft-color.webp" alt="Microsoft AI" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">Microsoft AI</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/ollama.webp" alt="Ollama" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">Ollama</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors"> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2"> <img src="/images/openai.webp" alt="OpenAI" class="w-full h-full object-contain"> </div> <span class="font-medium text-sm text-center">OpenAI</span> </div> <!-- Descripción adicional --> </div> <div class="mt-6 text-center"> <p class="text-muted-foreground text-sm pt-4">
+</p> </div> <div class="grid md:grid-cols-2 gap-12 items-center" data-astro-cid-lbq62zz6> <div class="space-y-6" data-astro-cid-lbq62zz6> <div class="flex items-start space-x-4" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0" data-astro-cid-lbq62zz6> <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" data-astro-cid-lbq62zz6></path> </svg> </div> <div data-astro-cid-lbq62zz6> <h3 class="text-xl font-semibold mb-2" data-astro-cid-lbq62zz6>Prompts de Alto Nivel</h3> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>En lugar de código preciso, los desarrolladores dan "vibes" o intenciones generales a la IA para generar aplicaciones funcionales.</p> </div> </div> <div class="flex items-start space-x-4" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0" data-astro-cid-lbq62zz6> <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" data-astro-cid-lbq62zz6></path> </svg> </div> <div data-astro-cid-lbq62zz6> <h3 class="text-xl font-semibold mb-2" data-astro-cid-lbq62zz6>Refinamiento Iterativo</h3> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Proceso de retroalimentación conversacional para guiar a la IA en refinar y depurar el código generado.</p> </div> </div> <div class="flex items-start space-x-4" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-success/10 rounded-lg flex items-center justify-center flex-shrink-0" data-astro-cid-lbq62zz6> <svg class="w-6 h-6 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" data-astro-cid-lbq62zz6></path> </svg> </div> <div data-astro-cid-lbq62zz6> <h3 class="text-xl font-semibold mb-2" data-astro-cid-lbq62zz6>Prototipado Rápido</h3> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Aprovecha la capacidad de los LLM para producir código funcional y acelerar la creación de aplicaciones y nuevas características.</p> </div> </div> </div> <div class="bg-card rounded-xl p-6 border border-border" data-astro-cid-lbq62zz6> <div class="code-highlight p-4 rounded-lg font-mono text-sm" data-astro-cid-lbq62zz6> <div class="flex items-center space-x-2 mb-4" data-astro-cid-lbq62zz6> <div class="w-3 h-3 bg-destructive rounded-full" data-astro-cid-lbq62zz6></div> <div class="w-3 h-3 bg-warning rounded-full" data-astro-cid-lbq62zz6></div> <div class="w-3 h-3 bg-success rounded-full" data-astro-cid-lbq62zz6></div> <span class="text-muted-foreground ml-2" data-astro-cid-lbq62zz6>hackathon-project.tsx</span> </div> <div class="space-y-2" data-astro-cid-lbq62zz6> <div data-astro-cid-lbq62zz6><span class="text-accent" data-astro-cid-lbq62zz6>import</span> <span class="text-primary" data-astro-cid-lbq62zz6>React</span> <span class="text-accent" data-astro-cid-lbq62zz6>from</span> <span class="text-success" data-astro-cid-lbq62zz6>'react'</span></div> <div data-astro-cid-lbq62zz6><span class="text-accent" data-astro-cid-lbq62zz6>import</span> <span class="text-primary" data-astro-cid-lbq62zz6>&#123; useEffect &#125;</span> <span class="text-accent" data-astro-cid-lbq62zz6>from</span> <span class="text-success" data-astro-cid-lbq62zz6>'react'</span></div> <div class="mt-4" data-astro-cid-lbq62zz6> <span class="text-accent" data-astro-cid-lbq62zz6>function</span> <span class="text-primary" data-astro-cid-lbq62zz6>HackathonApp</span><span class="text-muted-foreground" data-astro-cid-lbq62zz6>() &#123;</span> </div> <div class="ml-4" data-astro-cid-lbq62zz6> <span class="text-accent" data-astro-cid-lbq62zz6>const</span> <span class="text-primary" data-astro-cid-lbq62zz6>[idea, setIdea]</span> <span class="text-muted-foreground" data-astro-cid-lbq62zz6>= React.hook('')</span> </div> <div class="ml-4 mt-2" data-astro-cid-lbq62zz6> <span class="text-accent" data-astro-cid-lbq62zz6>return</span> <span class="text-muted-foreground" data-astro-cid-lbq62zz6>(</span> </div> <div class="ml-8" data-astro-cid-lbq62zz6> <span class="text-muted-foreground" data-astro-cid-lbq62zz6>&lt;</span><span class="text-primary" data-astro-cid-lbq62zz6>div</span><span class="text-muted-foreground" data-astro-cid-lbq62zz6>&gt;</span><span class="text-success" data-astro-cid-lbq62zz6>¡Tu idea aquí!</span><span class="text-muted-foreground" data-astro-cid-lbq62zz6>&lt;/</span><span class="text-primary" data-astro-cid-lbq62zz6>div</span><span class="text-muted-foreground" data-astro-cid-lbq62zz6>&gt;</span> </div> <div class="ml-4" data-astro-cid-lbq62zz6> <span class="text-muted-foreground" data-astro-cid-lbq62zz6>)</span> </div> <div data-astro-cid-lbq62zz6><span class="text-muted-foreground" data-astro-cid-lbq62zz6>&#125;</span></div> </div> </div> </div> </div> </div> </section> <!-- Details Section --> <section id="details" class="py-24" data-astro-cid-lbq62zz6> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-astro-cid-lbq62zz6> <div class="text-center mb-16" data-astro-cid-lbq62zz6> <h2 class="text-3xl md:text-5xl font-bold mb-6" data-astro-cid-lbq62zz6>Detalles del Evento</h2> <p class="text-xl text-muted-foreground" data-astro-cid-lbq62zz6>Todo lo que necesitas saber sobre la hackathon</p> </div> <div class="grid md:grid-cols-3 gap-8" data-astro-cid-lbq62zz6> <div class="bg-card rounded-xl p-8 border border-border text-center" data-astro-cid-lbq62zz6> <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6" data-astro-cid-lbq62zz6> <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" data-astro-cid-lbq62zz6></path> </svg> </div> <h3 class="text-2xl font-bold mb-4" data-astro-cid-lbq62zz6>Horario</h3> <p class="text-muted-foreground mb-4" data-astro-cid-lbq62zz6>Jornada completa en modalidad presencial</p> <div class="text-sm text-muted-foreground space-y-2" data-astro-cid-lbq62zz6> <p data-astro-cid-lbq62zz6><strong data-astro-cid-lbq62zz6>Primera sesión:</strong> <b data-astro-cid-lbq62zz6>8:00 AM - 12:00 PM</b> — Conferencia Vibecoding en el Auditorio Enrique Low Multra (abierta a todos los estudiantes).</p> <p data-astro-cid-lbq62zz6><strong data-astro-cid-lbq62zz6>Almuerzo:</strong> <b data-astro-cid-lbq62zz6>12:00 PM - 1:00 PM</b> — Incluido para todos los equipos participantes.</p> <p data-astro-cid-lbq62zz6><strong data-astro-cid-lbq62zz6>Segunda sesión:</strong> <b data-astro-cid-lbq62zz6>1:00 PM - 5:00 PM</b> — Hackathon en ambiente especializado SENA (solo equipos inscritos).</p> <p data-astro-cid-lbq62zz6><b data-astro-cid-lbq62zz6>Fecha:</b> 30 de Octubre 2025</p> </div> </div> <div class="bg-card rounded-xl p-8 border border-border text-center" data-astro-cid-lbq62zz6> <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6" data-astro-cid-lbq62zz6> <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" data-astro-cid-lbq62zz6></path> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" data-astro-cid-lbq62zz6></path> </svg> </div> <h3 class="text-2xl font-bold mb-4" data-astro-cid-lbq62zz6>Ubicación</h3> <p class="text-muted-foreground mb-4" data-astro-cid-lbq62zz6>Centro de Servicios Empresariales y Turísticos</p> <div class="text-sm text-muted-foreground space-y-2" data-astro-cid-lbq62zz6> <p data-astro-cid-lbq62zz6> <strong data-astro-cid-lbq62zz6>Primera sesión:</strong> Abierta para todos los estudiantes, se realizará en el <b data-astro-cid-lbq62zz6>Auditorio Enrique Low Multra</b>.
+</p> <p data-astro-cid-lbq62zz6> <strong data-astro-cid-lbq62zz6>Segunda sesión:</strong> Exclusiva para los equipos inscritos, se llevará a cabo en un ambiente especializado del SENA.
+</p> <p data-astro-cid-lbq62zz6> <b data-astro-cid-lbq62zz6>Importante:</b> Todos los miembros de los equipos deben estar presentes en ambas sesiones.
+</p> <p data-astro-cid-lbq62zz6>Modalidad presencial</p> </div> </div> <div class="bg-card rounded-xl p-8 border border-border text-center" data-astro-cid-lbq62zz6> <div class="w-16 h-16 bg-success/10 rounded-full flex items-center justify-center mx-auto mb-6" data-astro-cid-lbq62zz6> <svg class="w-8 h-8 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" data-astro-cid-lbq62zz6></path> </svg> </div> <h3 class="text-2xl font-bold mb-4" data-astro-cid-lbq62zz6>Beneficios</h3> <p class="text-muted-foreground mb-4" data-astro-cid-lbq62zz6>Reconocimientos y experiencias increíbles</p> <div class="text-sm text-muted-foreground space-y-4" data-astro-cid-lbq62zz6> <div class="flex items-center space-x-3" data-astro-cid-lbq62zz6> <span class="text-2xl" data-astro-cid-lbq62zz6>💰</span> <span data-astro-cid-lbq62zz6> <strong class="text-primary" data-astro-cid-lbq62zz6>Premio Principal:</strong> <span class="block text-muted-foreground" data-astro-cid-lbq62zz6>El equipo ganador recibirá un premio <b data-astro-cid-lbq62zz6>sujeto a legislación colombiana </b> y reconocimiento especial.</span> </span> </div> <div class="flex items-center space-x-3" data-astro-cid-lbq62zz6> <span class="text-2xl" data-astro-cid-lbq62zz6>🎓</span> <span data-astro-cid-lbq62zz6> <strong class="text-accent" data-astro-cid-lbq62zz6>Premios para Equipos Destacados:</strong> <span class="block text-muted-foreground" data-astro-cid-lbq62zz6>Los equipos con mejores ideas y desempeño obtendrán <b data-astro-cid-lbq62zz6>cursos de programación y otros beneficios</b>.</span> </span> </div> <div class="flex items-center space-x-3" data-astro-cid-lbq62zz6> <span class="text-2xl" data-astro-cid-lbq62zz6>🎉</span> <span data-astro-cid-lbq62zz6> <strong class="text-success" data-astro-cid-lbq62zz6>Alimentacion para Todos:</strong> <span class="block text-muted-foreground" data-astro-cid-lbq62zz6>Todos los equipos participantes recibirán almuerzo incluido.</span> </span> </div> </div> </div> </div> <div class="mt-16 bg-muted/30 rounded-2xl p-2" data-astro-cid-lbq62zz6> <h3 class="text-2xl font-bold mb-6 text-center" data-astro-cid-lbq62zz6>Herramientas de Vibecoding</h3> <!-- Lista actualizada de herramientas --> <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4" data-astro-cid-lbq62zz6> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/claude-color.webp" alt="Claude AI" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>Claude AI</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/cursor.webp" alt="Cursor" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>Cursor</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/deepseek-color.webp" alt="DeepSeek" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>DeepSeek</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/github.webp" alt="GitHub" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>GitHub</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/githubcopilot.webp" alt="GitHub Copilot" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>GitHub Copilot</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/langchain-color.webp" alt="LangChain" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>LangChain</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/mcp.webp" alt="MCP Protocol" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>MCP Protocol</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/microsoft-color.webp" alt="Microsoft AI" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>Microsoft AI</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/ollama.webp" alt="Ollama" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>Ollama</span> </div> <div class="flex flex-col items-center space-y-2 p-3 bg-card rounded-lg border border-border hover:bg-muted/50 transition-colors" data-astro-cid-lbq62zz6> <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center p-2" data-astro-cid-lbq62zz6> <img src="/images/openai.webp" alt="OpenAI" class="w-full h-full object-contain" data-astro-cid-lbq62zz6> </div> <span class="font-medium text-sm text-center" data-astro-cid-lbq62zz6>OpenAI</span> </div> <!-- Descripción adicional --> </div> <div class="mt-6 text-center" data-astro-cid-lbq62zz6> <p class="text-muted-foreground text-sm pt-4" data-astro-cid-lbq62zz6>
 Ecosistema completo de herramientas de IA para desarrollo moderno y productivo
-</p> </div> </div> </div></section> <!-- Registration Form --> <section id="register" class=" bg-muted/30 relative overflow-hidden"> <!-- Background Animation --> <div class="absolute inset-0 opacity-10"> <div class="floating-shapes"> <div class="shape shape-1"></div> <div class="shape shape-2"></div> <div class="shape shape-3"></div> </div> </div> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10"> <div class="text-center mb-12"> <h2 class="text-3xl md:text-5xl font-bold mb-6 gradient-text">Inscribe tu Equipo</h2> <p class="text-xl text-muted-foreground">Completa todos los campos para inscribir tu equipo al hackathon</p> </div> <div class="grid lg:grid-cols-3 gap-8"> <!-- Formulario --> <div class="lg:col-span-2"> <div class="bg-card rounded-2xl p-8 border border-border glass-effect"> <form action="https://formspree.io/f/xanpylqy" method="POST" class="space-y-8" id="registrationForm"> <!-- Información del Equipo --> <div class="space-y-6"> <div class="border-b border-border pb-4"> <h3 class="text-2xl font-bold text-primary mb-2">📝 Información del Equipo</h3> <p class="text-muted-foreground">Datos básicos de tu equipo</p> </div> <div class="grid md:grid-cols-2 gap-6"> <div class="input-group"> <label for="team-name" class="block text-sm font-medium mb-2">Nombre del Equipo *</label> <input type="text" id="team-name" name="team-name" required class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Ej: CodeMasters2024"> </div> <div class="input-group"> <label for="team-description" class="block text-sm font-medium mb-2">Descripción del Equipo</label> <textarea id="team-description" name="team-description" rows="3" class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Cuéntanos brevemente sobre tu equipo..."></textarea> </div> </div> </div> <!-- Integrantes del Equipo --> <div class="space-y-6"> <div class="border-b border-border pb-4"> <h3 class="text-2xl font-bold text-primary mb-2">👥 Integrantes del Equipo</h3> <p class="text-muted-foreground">Agrega los datos de cada integrante (mínimo 3, máximo 7)</p> </div> <div class="members-container space-y-6"> <!-- Los miembros se generarán dinámicamente con JavaScript --> </div> <div class="flex justify-center items-center space-x-4"> <button type="button" id="addMemberBtn" class="btn-modern bg-primary/20 text-primary px-6 py-3 rounded-lg hover:bg-primary/30 transition-colors flex items-center space-x-2"> <span>➕</span> <span>Agregar Integrante</span> </button> <span class="text-muted-foreground text-sm" id="memberCount">3 / 7 integrantes</span> </div> </div> <!-- Información Adicional --> <div class="space-y-6"> <div class="border-b border-border pb-4"> <h3 class="text-2xl font-bold text-primary mb-2">📄 Información Adicional</h3> <p class="text-muted-foreground">Cuéntanos más sobre tu equipo</p> </div> <div class="input-group"> <label for="additional-info" class="block text-sm font-medium mb-2">Experiencia del Equipo</label> <textarea id="additional-info" name="message" rows="4" class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Cuéntanos sobre la experiencia de tu equipo, proyectos previos, tecnologías que dominan, o cualquier información relevante..."></textarea> </div> </div> <!-- Términos y Condiciones --> <div class="space-y-4"> <div class="flex items-start space-x-3"> <input type="checkbox" id="terms" name="terms" required class="mt-1 w-4 h-4 text-primary bg-input border-border rounded focus:ring-primary focus:ring-2"> <label for="terms" class="text-sm text-muted-foreground">
-Acepto los términos y condiciones del evento y autorizo el tratamiento de mis datos personales de acuerdo a la política de privacidad. Confirmo que la información proporcionada es verídica.
-</label> </div> <button type="submit" id="submitBtn" class="w-full btn-modern bg-success text-white px-8 py-4 rounded-lg font-medium hover:bg-success/90 transition-colors text-lg">
+</p> </div> </div> </div></section> <!-- Modal de Términos y Condiciones --> <div id="termsModal" class="hidden fixed inset-0 z-50 items-center justify-center p-2 sm:p-4 bg-black/80 backdrop-blur-sm" data-astro-cid-lbq62zz6> <div class="bg-card rounded-2xl max-w-4xl w-full h-[95vh] sm:h-[90vh] border border-border shadow-2xl flex flex-col" data-astro-cid-lbq62zz6> <!-- Header del Modal - Fijo --> <div class="bg-gradient-to-r from-primary to-accent text-white p-4 sm:p-6 flex-shrink-0 rounded-t-2xl" data-astro-cid-lbq62zz6> <div class="flex items-start justify-between" data-astro-cid-lbq62zz6> <div class="flex-1" data-astro-cid-lbq62zz6> <h2 class="text-xl sm:text-2xl md:text-3xl font-bold mb-2" data-astro-cid-lbq62zz6>⚖️ Términos y Condiciones</h2> <p class="text-white/90 text-sm sm:text-base" data-astro-cid-lbq62zz6>Hackathon ADSO 2025 - Lectura y Aceptación Obligatoria</p> </div> <div class="ml-4 bg-white/20 rounded-full p-2 flex-shrink-0" data-astro-cid-lbq62zz6> <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 0h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" data-astro-cid-lbq62zz6></path> </svg> </div> </div> <div class="mt-3 bg-white/10 rounded-lg px-3 py-2 text-xs sm:text-sm" data-astro-cid-lbq62zz6> <p class="flex items-center space-x-2" data-astro-cid-lbq62zz6> <span data-astro-cid-lbq62zz6>🔒</span> <span data-astro-cid-lbq62zz6><strong data-astro-cid-lbq62zz6>Obligatorio:</strong> Debe aceptar para continuar con el registro</span> </p> </div> </div> <!-- Contenido Scrolleable del Modal --> <div class="flex-1 overflow-y-auto p-4 sm:p-6" data-astro-cid-lbq62zz6> <!-- Resumen Ejecutivo --> <div class="bg-warning/10 border border-warning/20 rounded-lg p-4 mb-6" data-astro-cid-lbq62zz6> <h3 class="text-lg font-semibold text-warning mb-3" data-astro-cid-lbq62zz6>📋 Resumen Ejecutivo</h3> <p class="text-sm mb-3" data-astro-cid-lbq62zz6>Al participar en este hackathon, usted acepta:</p> <div class="grid md:grid-cols-2 gap-4 text-sm" data-astro-cid-lbq62zz6> <ul class="space-y-1" data-astro-cid-lbq62zz6> <li data-astro-cid-lbq62zz6>• Cumplir el código de conducta del evento</li> <li data-astro-cid-lbq62zz6>• Conservar sus derechos de propiedad intelectual</li> <li data-astro-cid-lbq62zz6>• Autorizar uso de imagen con fines promocionales</li> <li data-astro-cid-lbq62zz6>• Tratamiento de datos según Ley 1581/2012</li> <li data-astro-cid-lbq62zz6>• Responsabilidad completa por su estado de salud</li> </ul> <ul class="space-y-1" data-astro-cid-lbq62zz6> <li data-astro-cid-lbq62zz6>• Decisiones del jurado son inapelables</li> <li data-astro-cid-lbq62zz6>• Responsabilidad por equipos personales</li> <li data-astro-cid-lbq62zz6>• Asistencia completa al evento (obligatoria)</li> <li data-astro-cid-lbq62zz6>• Veracidad de la información proporcionada</li> <li data-astro-cid-lbq62zz6>• Contar con seguro médico actualizado</li> </ul> </div> </div> <!-- Contenido Scrolleable --> <div class="max-h-48 sm:max-h-64 overflow-y-auto border border-border rounded-lg p-3 sm:p-4 mb-4 sm:mb-6 bg-muted/10" data-astro-cid-lbq62zz6> <div class="space-y-6 text-sm" data-astro-cid-lbq62zz6> <!-- Sección Clave: Propiedad Intelectual --> <div class="bg-card rounded-lg p-4 border border-border" data-astro-cid-lbq62zz6> <h4 class="font-semibold text-primary mb-2" data-astro-cid-lbq62zz6>💡 Propiedad Intelectual</h4> <p class="mb-2" data-astro-cid-lbq62zz6><strong data-astro-cid-lbq62zz6>Los participantes conservan todos los derechos</strong> sobre sus proyectos desarrollados.</p> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>El organizador recibe licencia no exclusiva para promoción educativa del evento. Marco legal: Ley 23/1982, Ley 1915/2018, Decisión Andina 351.</p> </div> <!-- Sección Clave: Protección de Datos --> <div class="bg-card rounded-lg p-4 border border-border" data-astro-cid-lbq62zz6> <h4 class="font-semibold text-info mb-2" data-astro-cid-lbq62zz6>🔒 Protección de Datos (Ley 1581/2012)</h4> <p class="mb-2" data-astro-cid-lbq62zz6>Autorizará tratamiento de datos para: gestión del evento, comunicaciones, evaluación, entrega de premios y promoción.</p> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Derechos: consulta, rectificación, supresión. Responsable: SENA , TEXELBIT </p> </div> <!-- Sección Clave: Código de Conducta --> <div class="bg-card rounded-lg p-4 border border-border" data-astro-cid-lbq62zz6> <h4 class="font-semibold text-success mb-2" data-astro-cid-lbq62zz6>📋 Código de Conducta</h4> <p class="mb-2" data-astro-cid-lbq62zz6>Comportamiento respetuoso, profesional y ético. Prohibido: plagio, sabotaje, acoso, discriminación.</p> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Consecuencias: advertencia, descalificación, prohibición de eventos futuros.</p> </div> <!-- Sección Clave: Premios --> <div class="bg-card rounded-lg p-4 border border-border" data-astro-cid-lbq62zz6> <h4 class="font-semibold text-warning mb-2" data-astro-cid-lbq62zz6>🏆 Premios y Evaluación</h4> <p class="mb-2" data-astro-cid-lbq62zz6>Critero de evaluación: demostración de conocimientos, habilidades y creatividad.</p> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Decisiones del jurado inapelables. Premios sujetos a determinacion bajo normativa colombiana</p> </div> <!-- Sección Clave: Responsabilidades --> <div class="bg-card rounded-lg p-4 border border-border" data-astro-cid-lbq62zz6> <h4 class="font-semibold text-destructive mb-2" data-astro-cid-lbq62zz6>⚖️ Limitación de Responsabilidad</h4> <p class="mb-2" data-astro-cid-lbq62zz6>El organizador NO se responsabiliza por pérdida/daño de equipos, interrupciones de servicio, o fuerza mayor.</p> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Recomendado: seguro de salud vigente y seguro para equipos personales.</p> </div> <!-- Sección Clave: Responsabilidad de Salud --> <div class="bg-card rounded-lg p-4 border border-border" data-astro-cid-lbq62zz6> <h4 class="font-semibold text-red-600 mb-2" data-astro-cid-lbq62zz6>🏥 Responsabilidad de Salud</h4> <p class="mb-2" data-astro-cid-lbq62zz6><strong data-astro-cid-lbq62zz6>El participante asume completa responsabilidad por su estado de salud.</strong> El organizador NO se responsabiliza por emergencias médicas, condiciones preexistentes, o problemas de salud durante el evento.</p> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Obligatorio: declarar estar apto para participar y contar con seguro médico vigente.</p> </div> </div> </div> <!-- Aviso Legal --> <div class="bg-info/10 border border-info/20 rounded-lg p-4 mb-6" data-astro-cid-lbq62zz6> <h3 class="font-semibold text-info mb-2" data-astro-cid-lbq62zz6>📄 Documento Legal Completo</h3> <p class="text-sm mb-3" data-astro-cid-lbq62zz6>Los términos y condiciones completos están disponibles en:</p> <a href="/terminos-condiciones" target="_blank" class="inline-flex items-center space-x-2 text-primary hover:text-accent transition-colors text-sm font-medium" data-astro-cid-lbq62zz6> <span data-astro-cid-lbq62zz6>🔗 Ver documento completo (requerido)</span> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-lbq62zz6> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" data-astro-cid-lbq62zz6></path> </svg> </a> <p class="text-xs text-muted-foreground mt-2" data-astro-cid-lbq62zz6>⚠️ <strong data-astro-cid-lbq62zz6>Obligatorio:</strong> Debe leer el documento completo antes de continuar.</p> </div> <!-- Checkbox de Aceptación --> <div class="space-y-3 sm:space-y-4" data-astro-cid-lbq62zz6> <div class="flex items-start space-x-3 p-3 sm:p-4 bg-success/5 rounded-lg border border-success/20" data-astro-cid-lbq62zz6> <input type="checkbox" id="readTermsComplete" class="mt-1 w-4 h-4 sm:w-5 sm:h-5 text-primary bg-input border-border rounded focus:ring-primary focus:ring-2 flex-shrink-0" data-astro-cid-lbq62zz6> <label for="readTermsComplete" class="text-xs sm:text-sm font-medium" data-astro-cid-lbq62zz6>
+✅ <strong data-astro-cid-lbq62zz6>Confirmo que he leído completamente</strong> los términos y condiciones en el documento oficial
+</label> </div> <div class="flex items-start space-x-3 p-3 sm:p-4 bg-success/5 rounded-lg border border-success/20" data-astro-cid-lbq62zz6> <input type="checkbox" id="acceptTerms" class="mt-1 w-4 h-4 sm:w-5 sm:h-5 text-primary bg-input border-border rounded focus:ring-primary focus:ring-2 flex-shrink-0" data-astro-cid-lbq62zz6> <label for="acceptTerms" class="text-xs sm:text-sm" data-astro-cid-lbq62zz6> <strong data-astro-cid-lbq62zz6>Acepto todos los términos y condiciones</strong> incluyendo:
+<ul class="mt-2 ml-2 sm:ml-4 text-xs space-y-1 text-muted-foreground" data-astro-cid-lbq62zz6> <li data-astro-cid-lbq62zz6>• Autorización para tratamiento de datos personales (Ley 1581/2012)</li> <li data-astro-cid-lbq62zz6>• Uso de imagen y derechos de publicidad para promoción del evento</li> <li data-astro-cid-lbq62zz6>• Cumplimiento del código de conducta y consecuencias por incumplimiento</li> <li data-astro-cid-lbq62zz6>• Cesión de derechos según establecido en términos de propiedad intelectual</li> <li data-astro-cid-lbq62zz6>• Aceptación de que las decisiones del jurado son inapelables y definitivas</li> <li data-astro-cid-lbq62zz6>• Responsabilidad completa por mi estado de salud y emergencias médicas</li> </ul> </label> </div> </div> </div> <!-- Footer Fijo con Botones - No scrolleable --> <div class="flex-shrink-0 border-t border-border bg-card p-4 sm:p-6 rounded-b-2xl" data-astro-cid-lbq62zz6> <!-- Botones de Acción --> <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-4" data-astro-cid-lbq62zz6> <button id="acceptTermsBtn" disabled class="flex-1 bg-success text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-medium transition-all duration-300 disabled:bg-muted disabled:text-muted-foreground disabled:cursor-not-allowed hover:bg-success/90" data-astro-cid-lbq62zz6>
+✅ Aceptar y Continuar con el Registro
+</button> <button id="cancelTermsBtn" class="flex-1 text-center bg-muted text-muted-foreground px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-medium hover:bg-muted/80 transition-colors" data-astro-cid-lbq62zz6>
+❌ Cancelar Registro
+</button> </div> <!-- Footer Legal --> <div class="text-center" data-astro-cid-lbq62zz6> <p class="text-xs text-muted-foreground leading-tight" data-astro-cid-lbq62zz6> <strong data-astro-cid-lbq62zz6>Marco Legal:</strong> Ley 1581/2012 (Protección Datos), Ley 23/1982 (Derechos Autor)<br class="hidden sm:block" data-astro-cid-lbq62zz6> <strong data-astro-cid-lbq62zz6>Jurisdicción:</strong> República de Colombia
+</p> </div> </div> </div> </div> <!-- Registration Form --> <section id="register" class=" bg-muted/30 relative overflow-hidden" data-astro-cid-lbq62zz6> <!-- Background Animation --> <div class="absolute inset-0 opacity-10" data-astro-cid-lbq62zz6> <div class="floating-shapes" data-astro-cid-lbq62zz6> <div class="shape shape-1" data-astro-cid-lbq62zz6></div> <div class="shape shape-2" data-astro-cid-lbq62zz6></div> <div class="shape shape-3" data-astro-cid-lbq62zz6></div> </div> </div> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" data-astro-cid-lbq62zz6> <div class="text-center mb-12" data-astro-cid-lbq62zz6> <h2 class="text-3xl md:text-5xl font-bold mb-6 gradient-text" data-astro-cid-lbq62zz6>Inscribe tu Equipo</h2> <p class="text-xl text-muted-foreground" data-astro-cid-lbq62zz6>Completa todos los campos para inscribir tu equipo al hackathon</p> <div id="termsAcceptedIndicator" class="hidden mt-4 inline-flex items-center space-x-2 px-4 py-2 bg-success/10 border border-success/20 rounded-full" data-astro-cid-lbq62zz6> <span class="text-success" data-astro-cid-lbq62zz6>✅</span> <span class="text-sm font-medium text-success" data-astro-cid-lbq62zz6>Términos y condiciones aceptados - Listo para enviar</span> </div> </div> <div class="grid lg:grid-cols-3 gap-8" data-astro-cid-lbq62zz6> <!-- Formulario --> <div class="lg:col-span-2" data-astro-cid-lbq62zz6> <div class="bg-card rounded-2xl p-8 border border-border glass-effect" data-astro-cid-lbq62zz6> <form action="https://formspree.io/f/xanpylqy" method="POST" class="space-y-8" id="registrationForm" data-astro-cid-lbq62zz6> <!-- Información del Equipo --> <div class="space-y-6" data-astro-cid-lbq62zz6> <div class="border-b border-border pb-4" data-astro-cid-lbq62zz6> <h3 class="text-2xl font-bold text-primary mb-2" data-astro-cid-lbq62zz6>📝 Información del Equipo</h3> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Datos básicos de tu equipo</p> </div> <div class="grid md:grid-cols-2 gap-6" data-astro-cid-lbq62zz6> <div class="input-group" data-astro-cid-lbq62zz6> <label for="team-name" class="block text-sm font-medium mb-2" data-astro-cid-lbq62zz6>Nombre del Equipo *</label> <input type="text" id="team-name" name="team-name" required class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Ej: CodeMasters2024" data-astro-cid-lbq62zz6> </div> <div class="input-group" data-astro-cid-lbq62zz6> <label for="team-description" class="block text-sm font-medium mb-2" data-astro-cid-lbq62zz6>Descripción del Equipo</label> <textarea id="team-description" name="team-description" rows="3" class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Cuéntanos brevemente sobre tu equipo..." data-astro-cid-lbq62zz6></textarea> </div> </div> </div> <!-- Integrantes del Equipo --> <div class="space-y-6" data-astro-cid-lbq62zz6> <div class="border-b border-border pb-4" data-astro-cid-lbq62zz6> <h3 class="text-2xl font-bold text-primary mb-2" data-astro-cid-lbq62zz6>👥 Integrantes del Equipo</h3> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Agrega los datos de cada integrante (mínimo 3, máximo 7)</p> </div> <div class="members-container space-y-6" data-astro-cid-lbq62zz6> <!-- Los miembros se generarán dinámicamente con JavaScript --> </div> <div class="flex justify-center items-center space-x-4" data-astro-cid-lbq62zz6> <button type="button" id="addMemberBtn" class="btn-modern bg-primary/20 text-primary px-6 py-3 rounded-lg hover:bg-primary/30 transition-colors flex items-center space-x-2" data-astro-cid-lbq62zz6> <span data-astro-cid-lbq62zz6>➕</span> <span data-astro-cid-lbq62zz6>Agregar Integrante</span> </button> <span class="text-muted-foreground text-sm" id="memberCount" data-astro-cid-lbq62zz6>3 / 7 integrantes</span> </div> </div> <!-- Información Adicional --> <div class="space-y-6" data-astro-cid-lbq62zz6> <div class="border-b border-border pb-4" data-astro-cid-lbq62zz6> <h3 class="text-2xl font-bold text-primary mb-2" data-astro-cid-lbq62zz6>📄 Información Adicional</h3> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Cuéntanos más sobre tu equipo</p> </div> <div class="input-group" data-astro-cid-lbq62zz6> <label for="additional-info" class="block text-sm font-medium mb-2" data-astro-cid-lbq62zz6>Experiencia del Equipo</label> <textarea id="additional-info" name="message" rows="4" class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Cuéntanos sobre la experiencia de tu equipo, proyectos previos, tecnologías que dominan, o cualquier información relevante..." data-astro-cid-lbq62zz6></textarea> </div> </div> <!-- Términos y Condiciones --> <div class="space-y-4" data-astro-cid-lbq62zz6> <button type="submit" id="submitBtn" class="w-full btn-modern bg-success text-white px-8 py-4 rounded-lg font-medium hover:bg-success/90 transition-colors text-lg" data-astro-cid-lbq62zz6>
 🚀 Inscribir Equipo al Hackathon
-</button> </div> </form> </div> </div> <!-- Resumen en tiempo real --> <div class="lg:col-span-1"> <div class="sticky top-24"> <div class="bg-card rounded-2xl p-6 border border-border glass-effect"> <h4 class="text-xl font-bold text-primary mb-4">📋 Resumen de Inscripción</h4> <div id="summaryContent" class="space-y-3 text-sm"> <p class="text-muted-foreground">Completa el formulario para ver el resumen de tu inscripción...</p> </div> </div> </div> </div> </div> </div> </section> <!-- JavaScript --> <script>
+</button> </div> </form> </div> </div> <!-- Resumen en tiempo real --> <div class="lg:col-span-1" data-astro-cid-lbq62zz6> <div class="sticky top-24" data-astro-cid-lbq62zz6> <div class="bg-card rounded-2xl p-6 border border-border glass-effect" data-astro-cid-lbq62zz6> <h4 class="text-xl font-bold text-primary mb-4" data-astro-cid-lbq62zz6>📋 Resumen de Inscripción</h4> <div id="summaryContent" class="space-y-3 text-sm" data-astro-cid-lbq62zz6> <p class="text-muted-foreground" data-astro-cid-lbq62zz6>Completa el formulario para ver el resumen de tu inscripción...</p> </div> </div> </div> </div> </div> </div> </section> <!-- JavaScript -->  <script>
       // Variables globales
       let memberCount = 3;
       const maxMembers = 7;
@@ -42,23 +49,28 @@ Acepto los términos y condiciones del evento y autorizo el tratamiento de mis d
         
         for (let i = 1; i <= memberCount; i++) {
           const nameEl = document.getElementById('member' + i + '-name');
-          const roleEl = document.getElementById('member' + i + '-role');
+          const phoneEl = document.getElementById('member' + i + '-phone');
+          const ageEl = document.getElementById('member' + i + '-age');
+          const languageEl = document.getElementById('member' + i + '-language');
           const foodEl = document.getElementById('member' + i + '-food');
-          const foodCustomEl = document.getElementById('member' + i + '-food-custom');
           
           if (nameEl && nameEl.value.trim()) {
             const name = nameEl.value.trim();
-            const roleValue = roleEl ? roleEl.value : '';
-            const roleText = roleEl && roleEl.selectedOptions && roleEl.selectedOptions[0] ? roleEl.selectedOptions[0].text : roleValue;
+            const phone = phoneEl ? phoneEl.value.trim() : '';
+            const age = ageEl ? ageEl.value : '';
+            const languageValue = languageEl ? languageEl.value : '';
+            const languageText = languageEl && languageEl.selectedOptions && languageEl.selectedOptions[0] ? languageEl.selectedOptions[0].text : languageValue;
             
             validMembers++;
-            membersHtml += '<p class="flex items-center space-x-2"><span class="text-accent">•</span><span>' + name + (roleText ? ' - ' + roleText : '') + '</span></p>';
+            let memberInfo = name;
+            if (age) memberInfo += ' (' + age + ' años)';
+            if (languageText) memberInfo += ' - ' + languageText;
+            if (phone) memberInfo += ' - ' + phone;
+            
+            membersHtml += '<p class="flex items-center space-x-2"><span class="text-accent">•</span><span>' + memberInfo + '</span></p>';
             
             if (foodEl && foodEl.value) {
               let foodText = foodEl.selectedOptions && foodEl.selectedOptions[0] ? foodEl.selectedOptions[0].text : foodEl.value;
-              if (foodEl.value === 'otra' && foodCustomEl && foodCustomEl.value.trim()) {
-                foodText = foodCustomEl.value.trim();
-              }
               foodPreferencesHtml += '<p class="flex items-center space-x-2"><span class="text-accent">•</span><span>' + name + ': ' + foodText + '</span></p>';
             }
           }
@@ -104,30 +116,35 @@ Acepto los términos y condiciones del evento y autorizo el tratamiento de mis d
       }
 
       function createMemberCard(memberIndex) {
-        const roles = [
-          { value: 'frontend', label: 'Frontend Developer', icon: '💻' },
-          { value: 'backend', label: 'Backend Developer', icon: '⚙️' },
-          { value: 'fullstack', label: 'Fullstack Developer', icon: '🔄' },
-          { value: 'qa', label: 'QA Tester', icon: '🔍' },
-          { value: 'pm', label: 'Project Manager', icon: '📊' },
-          { value: 'designer', label: 'UI/UX Designer', icon: '🎨' },
-          { value: 'devops', label: 'DevOps Engineer', icon: '⚙️' }
+        const programmingLanguages = [
+          { value: 'javascript', label: 'JavaScript', icon: '🟨' },
+          { value: 'typescript', label: 'TypeScript', icon: '�' },
+          { value: 'python', label: 'Python', icon: '🐍' },
+          { value: 'react', label: 'React', icon: '⚛️' },
+          { value: 'vue', label: 'Vue.js', icon: '🟢' },
+          { value: 'angular', label: 'Angular', icon: '🔴' },
+          { value: 'nodejs', label: 'Node.js', icon: '�' },
+          { value: 'html-css', label: 'HTML/CSS', icon: '�' },
+          { value: 'php', label: 'PHP', icon: '🐘' },
+          { value: 'java', label: 'Java', icon: '☕' },
+          { value: 'csharp', label: 'C#', icon: '🟣' },
+          { value: 'otro', label: 'Otro lenguaje', icon: '📝' }
         ];
 
         const foodPreferences = [
-          { value: 'normal', label: 'Normal' },
-          { value: 'vegetariana', label: 'Vegetariana' },
-          { value: 'vegana', label: 'Vegana' },
-          { value: 'otra', label: 'Otra (especificar)' }
+          { value: 'pollo', label: 'Pollo' },
+          { value: 'carne', label: 'Carne' },
+          { value: 'cerdo', label: 'Cerdo' },
+          { value: 'verduras', label: 'Verduras' }
         ];
 
         const memberCard = document.createElement('div');
         memberCard.className = 'member-card';
         memberCard.id = 'member-card-' + memberIndex;
         
-        let roleOptions = '<option value="">Seleccionar rol</option>';
-        roles.forEach(function(role) {
-          roleOptions += '<option value="' + role.value + '">' + role.icon + ' ' + role.label + '</option>';
+        let languageOptions = '<option value="">Seleccionar lenguaje</option>';
+        programmingLanguages.forEach(function(lang) {
+          languageOptions += '<option value="' + lang.value + '">' + lang.icon + ' ' + lang.label + '</option>';
         });
 
         let foodOptions = '<option value="">Seleccionar preferencia</option>';
@@ -163,22 +180,34 @@ Acepto los términos y condiciones del evento y autorizo el tratamiento de mis d
           '</div>' +
           '<div class="grid md:grid-cols-2 gap-4 mt-4">' +
             '<div class="input-group">' +
-              '<label for="member' + memberIndex + '-role" class="block text-sm font-medium mb-2">Rol en el equipo *</label>' +
-              '<select id="member' + memberIndex + '-role" name="member' + memberIndex + '-role" required ' +
-              'class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent">' +
-              roleOptions +
+              '<label for="member' + memberIndex + '-phone" class="block text-sm font-medium mb-2">Teléfono *</label>' +
+              '<input type="tel" id="member' + memberIndex + '-phone" name="member' + memberIndex + '-phone" required ' +
+              'class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" ' +
+              'placeholder="+57 300 123 4567" />' +
+            '</div>' +
+            '<div class="input-group">' +
+              '<label for="member' + memberIndex + '-age" class="block text-sm font-medium mb-2">Edad *</label>' +
+              '<input type="number" id="member' + memberIndex + '-age" name="member' + memberIndex + '-age" required min="16" max="99" ' +
+              'class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" ' +
+              'placeholder="25" />' +
+            '</div>' +
+          '</div>' +
+          '<div class="grid md:grid-cols-2 gap-4 mt-4">' +
+            '<div class="input-group">' +
+              '<label for="member' + memberIndex + '-language" class="block text-sm font-medium mb-2">Lenguaje de programación preferido *</label>' +
+              '<select id="member' + memberIndex + '-language" name="member' + memberIndex + '-language" required ' +
+              'class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" ' +
+              'onchange="this.blur(); generateSummary();">' +
+              languageOptions +
               '</select>' +
             '</div>' +
             '<div class="input-group">' +
               '<label for="member' + memberIndex + '-food" class="block text-sm font-medium mb-2">Preferencia alimenticia *</label>' +
               '<select id="member' + memberIndex + '-food" name="member' + memberIndex + '-food" required ' +
               'class="w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" ' +
-              'onchange="handleFoodPreferenceChange(' + memberIndex + ')">' +
+              'onchange="this.blur(); generateSummary();">' +
               foodOptions +
               '</select>' +
-              '<input type="text" id="member' + memberIndex + '-food-custom" name="member' + memberIndex + '-food-custom" ' +
-              'class="custom-food-input hidden w-full px-4 py-3 bg-light bg-opacity-10 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-accent" ' +
-              'placeholder="Especifica tu preferencia alimenticia..." />' +
             '</div>' +
           '</div>';
         
@@ -248,23 +277,7 @@ Acepto los términos y condiciones del evento y autorizo el tratamiento de mis d
         }
       }
 
-      function handleFoodPreferenceChange(memberIndex) {
-        const selectEl = document.getElementById('member' + memberIndex + '-food');
-        const customInputEl = document.getElementById('member' + memberIndex + '-food-custom');
-        
-        if (selectEl && customInputEl) {
-          if (selectEl.value === 'otra') {
-            customInputEl.classList.remove('hidden');
-            customInputEl.required = true;
-            customInputEl.focus();
-          } else {
-            customInputEl.classList.add('hidden');
-            customInputEl.required = false;
-            customInputEl.value = '';
-          }
-        }
-        generateSummary();
-      }
+
 
       function handleSubmit() {
         const submitBtn = document.getElementById('submitBtn');
@@ -275,38 +288,45 @@ Acepto los términos y condiciones del evento y autorizo el tratamiento de mis d
       }
 
       function enhanceSelectVisibility() {
-        const selects = document.querySelectorAll('select');
+        const selects = document.querySelectorAll('#registrationForm select, .member-card select');
         selects.forEach(function(select) {
           select.addEventListener('change', function() {
-            if (this.value === '') {
-              this.style.color = '#9CA3AF';
+            if (this.value === '' || this.value === 'placeholder') {
+              this.style.setProperty('color', '#9CA3AF', 'important');
             } else {
-              this.style.color = '#ffffff';
+              this.style.setProperty('color', '#ffffff', 'important');
             }
-            generateSummary();
+            
+            // Forzar estilos en las opciones después del cambio
+            const options = this.querySelectorAll('option');
+            options.forEach(function(option) {
+              option.style.setProperty('background-color', '#1a1a1a', 'important');
+              option.style.setProperty('color', '#ffffff', 'important');
+            });
           });
-          
-          // Solo aplicar color gris si está vacío
-          if (select.value === '') {
-            select.style.color = '#9CA3AF';
-          } else {
-            select.style.color = '#ffffff';
-          }
           
           select.addEventListener('focus', function() {
-            this.style.borderColor = '#ED8936';
-            // Temporalmente cambiar a color oscuro mientras está abierto
-            this.style.color = '#1a1a1a';
+            // Forzar estilos cuando se abre el dropdown
+            const options = this.querySelectorAll('option');
+            options.forEach(function(option) {
+              option.style.setProperty('background-color', '#1a1a1a', 'important');
+              option.style.setProperty('color', '#ffffff', 'important');
+              option.style.setProperty('background', '#1a1a1a', 'important');
+            });
           });
           
-          select.addEventListener('blur', function() {
-            this.style.borderColor = 'rgba(247, 250, 252, 0.1)';
-            // Restaurar color apropiado al cerrar
-            if (this.value === '') {
-              this.style.color = '#9CA3AF';
-            } else {
-              this.style.color = '#ffffff';
-            }
+          // Aplicar color inicial
+          if (select.value === '' || select.value === 'placeholder') {
+            select.style.setProperty('color', '#9CA3AF', 'important');
+          } else {
+            select.style.setProperty('color', '#ffffff', 'important');
+          }
+          
+          // Aplicar estilos iniciales a las opciones
+          const options = select.querySelectorAll('option');
+          options.forEach(function(option) {
+            option.style.setProperty('background-color', '#1a1a1a', 'important');
+            option.style.setProperty('color', '#ffffff', 'important');
           });
         });
       }
@@ -341,10 +361,287 @@ Acepto los términos y condiciones del evento y autorizo el tratamiento de mis d
 
       // Hacer funciones globales
       window.removeMember = removeMember;
-      window.handleFoodPreferenceChange = handleFoodPreferenceChange;
+
+      // ===================
+      // TÉRMINOS Y CONDICIONES
+      // ===================
+      
+      let termsAccepted = false;
+      
+      function adjustModalHeight() {
+        const modal = document.getElementById('termsModal');
+        if (!modal) return;
+        
+        const modalContent = modal.querySelector('.bg-card');
+        if (!modalContent) return;
+        
+        const viewportHeight = window.innerHeight;
+        const modalPadding = window.innerWidth < 640 ? 16 : 32; // 0.5rem o 1rem en cada lado
+        const maxHeight = viewportHeight - modalPadding;
+        
+        modalContent.style.maxHeight = maxHeight + 'px';
+      }
+
+      function showTermsModal() {
+        const modal = document.getElementById('termsModal');
+        const readCompleteCheckbox = document.getElementById('readTermsComplete');
+        
+        if (!modal) return;
+        
+        // Reset checkboxes
+        if (readCompleteCheckbox) readCompleteCheckbox.checked = false;
+        const acceptCheckbox = document.getElementById('acceptTerms');
+        if (acceptCheckbox) acceptCheckbox.checked = false;
+        
+        // Update accept button state
+        updateAcceptButton();
+        
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+        
+        // Ajustar altura y hacer scroll al top después de abrir
+        setTimeout(() => {
+          adjustModalHeight();
+          const modalContent = modal.querySelector('.overflow-y-auto');
+          if (modalContent) {
+            modalContent.scrollTop = 0;
+          }
+          
+          // Enfocar el primer checkbox para mejor accesibilidad
+          if (readCompleteCheckbox) {
+            readCompleteCheckbox.focus();
+          }
+        }, 100);
+      }
+
+      function initializeTermsModal() {
+        const modal = document.getElementById('termsModal');
+        const acceptTermsBtn = document.getElementById('acceptTermsBtn');
+        const readCompleteCheckbox = document.getElementById('readTermsComplete');
+        const acceptCheckbox = document.getElementById('acceptTerms');
+        const termsIndicator = document.getElementById('termsAcceptedIndicator');
+        
+        if (!modal || !acceptTermsBtn) return;
+        
+        // Ajustar altura del modal en carga inicial y resize
+        adjustModalHeight();
+        window.addEventListener('resize', adjustModalHeight);
+        window.addEventListener('orientationchange', () => {
+          setTimeout(adjustModalHeight, 100);
+        });
+        
+        // Controlar habilitación del botón de aceptar
+        window.updateAcceptButton = function() {
+          const readCompleteCheckbox = document.getElementById('readTermsComplete');
+          const acceptCheckbox = document.getElementById('acceptTerms');
+          const acceptTermsBtn = document.getElementById('acceptTermsBtn');
+          
+          if (!readCompleteCheckbox || !acceptCheckbox || !acceptTermsBtn) return;
+          
+          const canAccept = readCompleteCheckbox.checked && acceptCheckbox.checked;
+          acceptTermsBtn.disabled = !canAccept;
+          
+          if (canAccept) {
+            acceptTermsBtn.classList.remove('disabled:bg-muted', 'disabled:text-muted-foreground', 'disabled:cursor-not-allowed');
+            acceptTermsBtn.classList.add('hover:bg-success/90');
+          } else {
+            acceptTermsBtn.classList.add('disabled:bg-muted', 'disabled:text-muted-foreground', 'disabled:cursor-not-allowed');
+            acceptTermsBtn.classList.remove('hover:bg-success/90');
+          }
+        }
+        
+        if (readCompleteCheckbox) readCompleteCheckbox.addEventListener('change', updateAcceptButton);
+        if (acceptCheckbox) acceptCheckbox.addEventListener('change', updateAcceptButton);
+        
+        // Aceptar términos y cerrar modal
+        acceptTermsBtn.addEventListener('click', function() {
+          const readCompleteCheckbox = document.getElementById('readTermsComplete');
+          const acceptCheckbox = document.getElementById('acceptTerms');
+          
+          if (readCompleteCheckbox && acceptCheckbox && readCompleteCheckbox.checked && acceptCheckbox.checked) {
+            termsAccepted = true;
+            
+            // Ocultar modal
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+            
+            // Mostrar indicador de términos aceptados
+            if (termsIndicator) {
+              termsIndicator.classList.remove('hidden');
+              termsIndicator.classList.add('inline-flex');
+            }
+            
+            // Mostrar notificación de éxito
+            showSuccessNotification('✅ Términos y condiciones aceptados correctamente.');
+            
+            // Proceder con el envío del formulario
+            setTimeout(() => {
+              const form = document.getElementById('registrationForm');
+              if (form) {
+                // Marcar que los términos fueron aceptados para evitar el loop
+                form.setAttribute('data-terms-accepted', 'true');
+                
+                // Enviar el formulario
+                const submitBtn = document.getElementById('submitBtn');
+                if (submitBtn) {
+                  submitBtn.textContent = '📤 Enviando registro...';
+                  submitBtn.disabled = true;
+                }
+                
+                form.submit();
+              }
+            }, 1000);
+          }
+        });
+        
+        // Botón de cancelar
+        const cancelBtn = document.getElementById('cancelTermsBtn');
+        if (cancelBtn) {
+          cancelBtn.addEventListener('click', function() {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+          });
+        }
+        
+        // Permitir cerrar el modal con click fuera
+        modal.addEventListener('click', function(e) {
+          if (e.target === modal) {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+          }
+        });
+        
+        // Permitir cerrar con tecla ESC
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+          }
+        });
+      }
+      
+      function showSuccessNotification(message) {
+        const notification = document.createElement('div');
+        notification.className = 'fixed top-4 right-4 z-50 bg-success text-white px-6 py-3 rounded-lg shadow-xl flex items-center space-x-2 max-w-md';
+        
+        notification.innerHTML = `
+          <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+          </svg>
+          <span class="text-sm font-medium">${message}</span>
+        `;
+        
+        document.body.appendChild(notification);
+        
+        // Animar entrada
+        setTimeout(() => {
+          notification.classList.add('notification-enter');
+        }, 100);
+        
+        // Remover después de 5 segundos
+        setTimeout(() => {
+          notification.classList.remove('notification-enter');
+          notification.classList.add('notification-exit');
+          setTimeout(() => {
+            if (document.body.contains(notification)) {
+              document.body.removeChild(notification);
+            }
+          }, 300);
+        }, 5000);
+      }
+      
+      function showWarningNotification(message) {
+        const notification = document.createElement('div');
+        notification.className = 'fixed top-4 right-4 z-50 bg-warning text-white px-6 py-3 rounded-lg shadow-xl flex items-center space-x-2 max-w-md';
+        
+        notification.innerHTML = `
+          <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 15.5c-.77.833.192 2.5 1.732 2.5z"></path>
+          </svg>
+          <span class="text-sm font-medium">${message}</span>
+        `;
+        
+        document.body.appendChild(notification);
+        
+        // Animar entrada
+        setTimeout(() => {
+          notification.classList.add('notification-enter');
+        }, 100);
+        
+        // Remover después de 4 segundos
+        setTimeout(() => {
+          notification.classList.remove('notification-enter');
+          notification.classList.add('notification-exit');
+          setTimeout(() => {
+            if (document.body.contains(notification)) {
+              document.body.removeChild(notification);
+            }
+          }, 300);
+        }, 4000);
+      }
+      
+      // Modificar función de envío del formulario para validar términos
+      function handleSubmit(e) {
+        // Verificar si ya se procesó la aceptación de términos
+        const form = e.target;
+        const termsAlreadyAccepted = form.getAttribute('data-terms-accepted') === 'true';
+        
+        if (!termsAccepted && !termsAlreadyAccepted) {
+          e.preventDefault();
+          
+          // Primero validar campos requeridos antes de mostrar términos
+          const teamName = document.getElementById('team-name').value.trim();
+          if (!teamName) {
+            showWarningNotification('⚠️ El nombre del equipo es obligatorio.');
+            return false;
+          }
+          
+          // Validar que haya al menos 3 miembros con datos completos
+          let validMembers = 0;
+          for (let i = 1; i <= memberCount; i++) {
+            const nameEl = document.getElementById('member' + i + '-name');
+            const emailEl = document.getElementById('member' + i + '-email');
+            const phoneEl = document.getElementById('member' + i + '-phone');
+            const ageEl = document.getElementById('member' + i + '-age');
+            const languageEl = document.getElementById('member' + i + '-language');
+            const foodEl = document.getElementById('member' + i + '-food');
+            
+            if (nameEl && nameEl.value.trim() && 
+                emailEl && emailEl.value.trim() && 
+                phoneEl && phoneEl.value.trim() &&
+                ageEl && ageEl.value &&
+                languageEl && languageEl.value &&
+                foodEl && foodEl.value) {
+              validMembers++;
+            }
+          }
+          
+          if (validMembers < 3) {
+            showWarningNotification('⚠️ Se requieren mínimo 3 integrantes con todos los datos completos.');
+            return false;
+          }
+          
+          // Si la validación pasa, mostrar modal de términos
+          showWarningNotification('📋 Por favor, lea y acepte los términos y condiciones para completar el registro.');
+          setTimeout(() => {
+            showTermsModal();
+          }, 500);
+          
+          return false;
+        }
+        
+        // Si los términos ya fueron aceptados, proceder normalmente
+        return true;
+      }
 
       // Inicialización
       document.addEventListener('DOMContentLoaded', function() {
+        initializeTermsModal();
         initializeForm();
         initializeMemberForms();
         enhanceSelectVisibility();

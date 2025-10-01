@@ -475,21 +475,22 @@ label {
 /* ESTILOS MEJORADOS PARA SELECT Y OPTIONS */
 /* Solución más específica y compatible para todos los navegadores */
 
-/* Selects del formulario hackathon */
+/* Selects del formulario hackathon - Estilos simplificados */
 #registrationForm select,
 .member-card select,
 form select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: rgba(247, 250, 252, 0.1) !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-color: #1a1a1a !important;
   color: #ffffff !important;
-  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23ffffff" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
-  background-repeat: no-repeat;
-  background-position: right 12px center;
-  background-size: 12px;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23ffffff" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>') !important;
+  background-repeat: no-repeat !important;
+  background-position: right 12px center !important;
+  background-size: 12px !important;
   padding-right: 40px !important;
-  border: 1px solid rgba(247, 250, 252, 0.1) !important;
+  border: 1px solid #ED8936 !important;
+  text-shadow: none !important;
 }
 
 /* Estado focus para selects */
@@ -497,27 +498,50 @@ form select {
 .member-card select:focus,
 form select:focus {
   border-color: #ED8936 !important;
-  outline: none;
+  outline: none !important;
   box-shadow: 0 0 0 2px rgba(237, 137, 54, 0.2) !important;
 }
 
-/* Options para todos los navegadores - Con texto oscuro para contraste */
+/* Placeholder y estado vacío - texto más claro */
+#registrationForm select:invalid,
+.member-card select:invalid,
+form select:invalid {
+  color: #9CA3AF !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+#registrationForm select[value=""],
+.member-card select[value=""],
+form select[value=""] {
+  color: #9CA3AF !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Options para todos los navegadores - Fondo oscuro con texto claro */
 #registrationForm select option,
 .member-card select option,
 form select option {
-  background-color: #ffffff !important;
-  color: #1a1a1a !important;
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
   padding: 10px 12px !important;
   border: none !important;
   font-weight: normal !important;
 }
 
-/* Options hover state - Fondo gris claro con texto oscuro */
+/* Forzar estilos para options cuando el select tiene valor */
+#registrationForm select[value]:not([value=""]) option,
+.member-card select[value]:not([value=""]) option,
+form select[value]:not([value=""]) option {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* Options hover state - Fondo de acento */
 #registrationForm select option:hover,
 .member-card select option:hover,
 form select option:hover {
-  background-color: #f3f4f6 !important;
-  color: #1a1a1a !important;
+  background-color: #ED8936 !important;
+  color: #ffffff !important;
 }
 
 /* Options selected state - Fondo de acento con texto blanco */
@@ -543,13 +567,31 @@ select::-webkit-scrollbar-thumb {
   border-radius: 4px;
 }
 
-/* Firefox específico - Texto oscuro en fondo claro */
+/* WebKit específico - Para Chrome y Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #registrationForm select option,
+  .member-card select option,
+  form select option {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    background: #1a1a1a !important;
+  }
+  
+  #registrationForm select:focus option,
+  .member-card select:focus option,
+  form select:focus option {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+  }
+}
+
+/* Firefox específico - Texto claro en fondo oscuro */
 @-moz-document url-prefix() {
   #registrationForm select option,
   .member-card select option,
   form select option {
-    background-color: #ffffff !important;
-    color: #1a1a1a !important;
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
   }
   
   #registrationForm select option:checked,
@@ -567,4 +609,29 @@ select::-webkit-scrollbar-thumb {
   display: block !important;
   margin-bottom: 0.5rem !important;
   font-weight: 500 !important;
+}
+
+/* ESTILOS PARA CAMPOS NUMÉRICOS Y TELÉFONO */
+#registrationForm input[type="number"],
+#registrationForm input[type="tel"],
+.member-card input[type="number"],
+.member-card input[type="tel"] {
+  color: #ffffff !important;
+  background-color: rgba(247, 250, 252, 0.1) !important;
+}
+
+#registrationForm input[type="number"]:focus,
+#registrationForm input[type="tel"]:focus,
+.member-card input[type="number"]:focus,
+.member-card input[type="tel"]:focus {
+  color: #ffffff !important;
+  border-color: #ED8936 !important;
+}
+
+/* Placeholder específico para campos numéricos */
+#registrationForm input[type="number"]::placeholder,
+#registrationForm input[type="tel"]::placeholder,
+.member-card input[type="number"]::placeholder,
+.member-card input[type="tel"]::placeholder {
+  color: #9CA3AF !important;
 }
